@@ -1,7 +1,7 @@
 app-admin/bubba 2.6_pre150807: The Bubba meta package
-app-admin/bubba-backend 2.6_pre150907: Excito B3 administrative scripts
+app-admin/bubba-backend 2.6_pre151105: Excito B3 administrative scripts
 app-admin/bubba-diskmanager 1.0: Bubba disk manager handles disk functions for the Bubba web frontend
-app-admin/bubba-frontend 2.6_pre150902: Excito B3 administrative scripts
+app-admin/bubba-frontend 2.6_pre151105: Excito B3 administrative scripts
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
 app-admin/bubba-networkmanager 0.48_pre150912: Bubba network manager allows the web frontend to control various network settings
 app-crypt/cryptodev-linux 1.6: Cryptodev-linux module
@@ -14,8 +14,8 @@ dev-php/libbubba-info-php 1.2-r1: PHP bindig for Bubba platform information libr
 dev-python/python-bubba-info 1.0: Python binding for Bubba platform information library
 media-sound/logitechmediaserver 7.8.0: Logitech Media Server (streaming audio server)
 net-libs/nodejs 0.10.5: Evented IO for V8 Javascript
-net-misc/bubba-easyfind 2.6-r5: Excito B3 easyfind service
-sys-apps/sysvinit 9999: /sbin/init - parent of all processes
+net-misc/bubba-easyfind 2.6-r5 2.6-r6: Excito B3 easyfind service
+sys-apps/sysvinit 2.88-r100: /sbin/init - parent of all processes
 sys-kernel/gentoo-sources 4.0.1: Full sources including the Gentoo patchset for the 4.0 kernel tree
 sys-power/bubba-buttond 1.4-r3: Excito B3 power control
 www-apps/codeigniter-bin 2.2.2: CodeIgniter PHP framework for full-featured web applications
