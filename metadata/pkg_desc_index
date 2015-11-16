@@ -17,5 +17,5 @@ net-libs/nodejs 0.10.5: Evented IO for V8 Javascript
 net-misc/bubba-easyfind 2.6-r5 2.6-r6: Excito B3 easyfind service
 sys-apps/sysvinit 2.88-r100: /sbin/init - parent of all processes
 sys-kernel/gentoo-sources 4.0.1 4.1.6: Full sources including the Gentoo patchset for the 4.1 kernel tree
-sys-power/bubba-buttond 1.4-r3: Excito B3 power control
+sys-power/bubba-buttond 1.4-r4: Excito B3 power control
 www-apps/codeigniter-bin 2.2.2: CodeIgniter PHP framework for full-featured web applications
