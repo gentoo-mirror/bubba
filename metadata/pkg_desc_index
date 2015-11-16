@@ -1,9 +1,9 @@
 app-admin/bubba 2.6_pre150807: The Bubba meta package
 app-admin/bubba-backend 2.6_pre151113: Excito B3 administrative scripts
 app-admin/bubba-diskmanager 1.0: Bubba disk manager handles disk functions for the Bubba web frontend
-app-admin/bubba-frontend 2.6_pre151113: Excito B3 administrative scripts
+app-admin/bubba-frontend 2.6_pre151116: Excito B3 administrative scripts
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
-app-admin/bubba-networkmanager 0.48_pre151113: Bubba network manager allows the web frontend to control various network settings
+app-admin/bubba-networkmanager 0.48_pre151116: Bubba network manager allows the web frontend to control various network settings
 app-crypt/cryptodev-linux 1.6: Cryptodev-linux module
 app-misc/domoticz 9999 99999: Home automation system
 dev-libs/libbubba-info 1.3: Bubba platform information library
