@@ -15,6 +15,7 @@ dev-python/python-bubba-info 1.0: Python binding for Bubba platform information 
 media-sound/logitechmediaserver 7.8.0: Logitech Media Server (streaming audio server)
 net-libs/nodejs 0.10.5: Evented IO for V8 Javascript
 net-misc/bubba-easyfind 2.6-r5 2.6-r6: Excito B3 easyfind service
+net-p2p/filetransferdaemon 0.55: Excito library utils
 sys-apps/sysvinit 2.88-r100: /sbin/init - parent of all processes
 sys-kernel/gentoo-sources 4.0.1 4.1.6: Full sources including the Gentoo patchset for the 4.1 kernel tree
 sys-power/bubba-buttond 1.4-r4: Excito B3 power control
