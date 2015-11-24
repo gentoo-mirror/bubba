@@ -1,0 +1,16 @@
+DEFINED_PHASES=compile configure install postinst prepare test unpack
+DEPEND=dev-lang/perl:=[-build(-)]
+DESCRIPTION=Excito B3 administrative scripts
+EAPI=5
+HOMEPAGE=http://www.excito.com/
+IUSE=+apache2 nginx
+KEYWORDS=~arm ~ppc
+LICENSE=GPL-3
+RDEPEND=app-admin/bubba-diskmanager app-admin/bubba-networkmanager app-arch/zip dev-perl/Config-Simple dev-perl/Config-Tiny dev-perl/Crypt-PasswdMD5 dev-perl/Crypt-SSLeay dev-perl/Expect dev-perl/File-Slurp dev-perl/IPC-Run dev-perl/IPC-Run3 >=dev-perl/JSON-2.900.0 >=dev-perl/JSON-XS-3.10.0 dev-perl/libbubba-info-perl dev-perl/List-MoreUtils dev-perl/Try-Tiny dev-perl/XML-Parser dev-perl/XML-Simple dev-php/libbubba-info-php dev-python/pycups dev-python/twisted-core >=sys-libs/timezone-data-2015e dev-lang/perl:=[-build(-)]
+REQUIRED_USE=^^ ( apache2 nginx )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://update.excito.org/pool/main/b/bubba-backend/bubba-backend_2.6.tar.gz
+_eclass_exported_funcs=pkg_postinst:- src_unpack:perl-module src_prepare:- src_configure:- src_compile:- src_test:perl-module src_install:-
+_eclasses_=eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	perl-module	1cfb38bf68a24c8394e41d2f53003146	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	unpacker	1d149d9bda7723e740cfd28118f27813
+_md5_=69dd0b5f5b19726c8cfc651a55db0aa3
