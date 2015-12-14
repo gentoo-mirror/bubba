@@ -1,5 +1,5 @@
 app-admin/bubba 2.6_pre150807: The Bubba meta package
-app-admin/bubba-backend 2.6_pre151206 2.6_pre151210: Excito B3 administrative scripts
+app-admin/bubba-backend 2.6_pre151210: Excito B3 administrative scripts
 app-admin/bubba-diskmanager 1.0-r1: Bubba disk manager handles disk functions for the Bubba web frontend
 app-admin/bubba-frontend 2.6_pre151204: Excito B3 administrative scripts
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
@@ -9,7 +9,7 @@ app-misc/domoticz 9999 99999: Home automation system
 dev-libs/libbubba-info 1.3: Bubba platform information library
 dev-libs/libeutils 0.7.39-r1: Excito library utils
 dev-libs/openssl 1.0.2_pre150212: full-strength general purpose cryptography library (including SSL and TLS)
-dev-perl/libbubba-info-perl 1.2-r1: Perl bindig for Bubba platform information library
+dev-perl/libbubba-info-perl 1.2-r2: Perl bindig for Bubba platform information library
 dev-php/libbubba-info-php 1.2-r1: PHP bindig for Bubba platform information library
 dev-python/python-bubba-info 1.0: Python binding for Bubba platform information library
 mail-client/bubba-roundcube 1.0.6: A browser-based multilingual IMAP client with an application-like user interface
@@ -19,6 +19,6 @@ net-libs/nodejs 0.10.5: Evented IO for V8 Javascript
 net-misc/bubba-easyfind 2.6-r5 2.6-r6: Excito B3 easyfind service
 net-p2p/filetransferdaemon 0.55: Excito library utils
 sys-apps/sysvinit 2.88-r100: /sbin/init - parent of all processes
-sys-kernel/gentoo-sources 4.0.1 4.1.6: Full sources including the Gentoo patchset for the 4.1 kernel tree
+sys-kernel/gentoo-sources 4.0.1 4.1.6 4.3.0: Full sources including the Gentoo patchset for the 4.3 kernel tree
 sys-power/bubba-buttond 1.4-r4: Excito B3 power control
 www-apps/codeigniter-bin 2.2.2: CodeIgniter PHP framework for full-featured web applications
