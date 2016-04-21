@@ -5,7 +5,7 @@ app-admin/bubba-frontend 2.6_pre151222: Excito B3 administrative scripts
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
 app-admin/bubba-networkmanager 0.48: Bubba network manager allows the web frontend to control various network settings
 app-crypt/cryptodev-linux 1.6: Cryptodev-linux module
-app-misc/domoticz 2.2820 2.3869 2.4298 2.4349 2.4389 2.4707 9999: Home automation system
+app-misc/domoticz 2.2820 2.3869 2.4298 2.4349 2.4389 2.4707 3.5015 9999: Home automation system
 app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
 dev-libs/libbubba-info 1.3: Bubba platform information library
 dev-libs/libeutils 0.7.39-r1: Excito library utils
