@@ -18,7 +18,9 @@ mail-client/bubba-roundcube 1.0.6-r1: A browser-based multilingual IMAP client w
 media-gfx/singapore 0.10.1_pre160504: Singapore Image Gallery
 media-sound/logitechmediaserver 7.8.0: Logitech Media Server (streaming audio server)
 net-libs/nodejs 0.10.5: Evented IO for V8 Javascript
-net-misc/bubba-easyfind 2.6-r5 2.6-r6: Excito B3 easyfind service
+net-misc/bubba-easyfind 2.6-r6: Excito B3 easyfind service
+net-misc/easyfind-client 0.3: Easyfind client
+net-misc/evohome-client 0.2.5: Python client to access the Evohome web service
 net-p2p/filetransferdaemon 0.55: Excito library utils
 sys-apps/sysvinit 2.88-r100: /sbin/init - parent of all processes
 sys-kernel/gentoo-sources 4.0.1 4.1.6 4.3.0: Full sources including the Gentoo patchset for the 4.3 kernel tree
