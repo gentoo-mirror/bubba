@@ -12,7 +12,7 @@ dev-libs/libeutils 0.7.39-r1: Excito library utils
 dev-libs/openssl 1.0.2_pre150212: full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/openzwave 1.4.1 9999: free software library that interfaces with selected Z-Wave PC controllers
 dev-perl/libbubba-info-perl 1.2-r2: Perl bindig for Bubba platform information library
-dev-php/libbubba-info-php 1.2-r1: PHP bindig for Bubba platform information library
+dev-php/libbubba-info-php 1.2-r2: PHP binding for Bubba platform information library
 dev-python/python-bubba-info 1.0: Python binding for Bubba platform information library
 mail-client/bubba-roundcube 1.0.6-r1: A browser-based multilingual IMAP client with an application-like user interface
 media-gfx/singapore 0.10.1_pre160504: Singapore Image Gallery
