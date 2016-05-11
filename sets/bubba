@@ -2,7 +2,6 @@ app-admin/bubba
 mail-client/bubba-roundcube
 mail-mta/postfix
 media-gfx/singapore
-media-sound/forked-daapd
 media-sound/logitechmediaserver
 net-dns/dnsmasq
 net-firewall/iptables
@@ -18,3 +17,4 @@ net-misc/mediatomb
 net-misc/minidlna
 net-misc/ntp
 net-p2p/filetransferdaemon
+sys-power/bubba-buttond
