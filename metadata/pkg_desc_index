@@ -16,7 +16,7 @@ dev-php/libbubba-info-php 1.2-r2: PHP binding for Bubba platform information lib
 dev-python/python-bubba-info 1.0: Python binding for Bubba platform information library
 mail-client/bubba-roundcube 1.0.6-r1: A browser-based multilingual IMAP client with an application-like user interface
 media-gfx/singapore 0.10.1_pre160504: Singapore Image Gallery
-media-sound/logitechmediaserver 7.8.0: Logitech Media Server (streaming audio server)
+media-sound/logitechmediaserver 7.8.0-r1: Logitech Media Server (streaming audio server)
 net-libs/nodejs 0.10.5: Evented IO for V8 Javascript
 net-misc/bubba-easyfind 2.6-r6: Excito B3 easyfind service
 net-misc/easyfind-client 0.3: Easyfind client
@@ -25,4 +25,5 @@ net-p2p/filetransferdaemon 0.55: Excito library utils
 sys-apps/sysvinit 2.88-r100: /sbin/init - parent of all processes
 sys-kernel/gentoo-sources 4.0.1 4.1.6 4.3.0: Full sources including the Gentoo patchset for the 4.3 kernel tree
 sys-power/bubba-buttond 1.4-r4: Excito B3 power control
+virtual/jdk 1.5.0-r3: Virtual for JDK
 www-apps/codeigniter-bin 2.2.2: CodeIgniter PHP framework for full-featured web applications
