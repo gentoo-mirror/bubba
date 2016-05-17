@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Java Development Kit (JDK)
+EAPI=6
+KEYWORDS=~arm
+RDEPEND=|| ( dev-java/icedtea-bin:7 dev-java/icedtea:7 dev-java/oracle-jdk-bin:1.7 dev-java/openjdk-bin:7 )
+SLOT=1.7
+_eclass_exported_funcs=-
+_md5_=598257b30e28ed8952e67a9cf4fd3f0e
