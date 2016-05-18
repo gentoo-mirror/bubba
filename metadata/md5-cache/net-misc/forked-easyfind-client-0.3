@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install unpack
+DEFINED_PHASES=compile install postinst unpack
 DEPEND=net-misc/curl dev-libs/json-c !<net-misc/bubba-easyfind-3 virtual/pkgconfig
 DESCRIPTION=Easyfind client
 EAPI=5
@@ -9,7 +9,7 @@ LICENSE=GPL-2
 RDEPEND=net-misc/curl dev-libs/json-c !<net-misc/bubba-easyfind-3
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/Excito/easyfind-client/archive/63fb971917070275af152d499fe2880207d47114.zip -> easyfind-client-0.3.zip https://raw.githubusercontent.com/Excito/excito-release/1c12d4e974b54619bde2997f53fc5b77e08d61a8/excito-ca.crt
-_eclass_exported_funcs=src_unpack:- src_compile:- src_install:-
+SRC_URI=https://github.com/gordonb3/forked-easyfind-client/archive/debian/0.3.tar.gz -> forked-easyfind-client-0.3.tgz https://raw.githubusercontent.com/Excito/excito-release/1c12d4e/excito-ca.crt
+_eclass_exported_funcs=pkg_postinst:- src_unpack:- src_compile:- src_install:-
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	systemd	3165c885f3c71ffae7a867d931fb0e07	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
-_md5_=a31334088763931633483af8838bb5a0
+_md5_=318b470a0a83f71fd659488174aa6b12
