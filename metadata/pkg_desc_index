@@ -19,7 +19,7 @@ dev-python/python-bubba-info 1.0: Python binding for Bubba platform information 
 mail-client/bubba-roundcube 1.0.6-r1: A browser-based multilingual IMAP client with an application-like user interface
 media-gfx/singapore 0.10.1_pre160504: Singapore Image Gallery
 media-sound/logitechmediaserver 7.8.0-r1: Logitech Media Server (streaming audio server)
-media-sound/logitechmediaserver-bin 7.8.0: Logitech Media Server (streaming audio server)
+media-sound/logitechmediaserver-bin 7.8.0 7.8.0-r2: Logitech Media Server (streaming audio server)
 net-libs/nodejs 0.10.5: Evented IO for V8 Javascript
 net-misc/bubba-easyfind 2.6-r6: Excito B3 easyfind service
 net-misc/evohome-client 0.2.5: Python client to access the Evohome web service
