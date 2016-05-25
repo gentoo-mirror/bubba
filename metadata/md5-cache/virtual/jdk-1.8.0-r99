@@ -5,4 +5,4 @@ KEYWORDS=~arm
 RDEPEND=|| ( dev-java/icedtea-bin:8 dev-java/icedtea:8 dev-java/oracle-jdk-bin:1.8 dev-java/openjdk-bin:8 )
 SLOT=1.8
 _eclass_exported_funcs=-
-_md5_=63668077c54991419b404c142c363c7b
+_md5_=fa01f83d847fbd573085afdfd75ee15b

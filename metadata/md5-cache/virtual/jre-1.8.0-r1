@@ -5,4 +5,4 @@ KEYWORDS=~arm
 RDEPEND=|| ( virtual/jdk:1.8 dev-java/oracle-jre-bin:1.8 dev-java/oracle-ejdk-bin:1.8 )
 SLOT=1.8
 _eclass_exported_funcs=-
-_md5_=9b521211137d938c1b9a72e979b44263
+_md5_=e909682ca1b44ccf51771149a420b82a

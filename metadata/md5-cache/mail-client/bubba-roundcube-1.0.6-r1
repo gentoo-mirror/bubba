@@ -9,4 +9,4 @@ RDEPEND=>=dev-lang/php-5.3[crypt,filter,gd,iconv,json,ldap?,pdo,postgres?,sessio
 SLOT=0
 SRC_URI=mirror://sourceforge//roundcubemail//roundcubemail-1.0.6.tar.gz
 _eclass_exported_funcs=pkg_postinst:- src_prepare:- src_install:-
-_md5_=71fa031525d48dc7085ea1fa9e9b3a79
+_md5_=47e217496f56d1d47c62681df6ac92ad
