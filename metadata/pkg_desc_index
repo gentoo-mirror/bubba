@@ -1,6 +1,6 @@
 app-admin/bubba 1.8.2: The Bubba main package
 app-admin/bubba-backend 2.6: Excito B3 administrative scripts
-app-admin/bubba-diskmanager 1.0-r1: Bubba disk manager handles disk functions for the Bubba web frontend
+app-admin/bubba-diskmanager 1.0-r2: Bubba disk manager handles disk functions for the Bubba web frontend
 app-admin/bubba-frontend 2.6: Excito B3 administrative scripts
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
 app-admin/bubba-networkmanager 0.48: Bubba network manager allows the web frontend to control various network settings
@@ -10,7 +10,7 @@ app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
 dev-java/openjdk-bin 6.1.13.10 7.2.6.4 8.0.0.1: Debian precompile Java SE Development Kit
 dev-java/oracle-ejdk-bin 1.8.0.91: Oracle's Java embedded SE Development Kit
 dev-libs/libbubba-info 1.3: Bubba platform information library
-dev-libs/libeutils 0.7.39-r1: Excito library utils
+dev-libs/libeutils 0.7.39-r2: Excito library utils
 dev-libs/openssl 1.0.2_pre150212: full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/openzwave 1.4.1 9999: free software library that interfaces with selected Z-Wave PC controllers
 dev-perl/libbubba-info-perl 1.2-r2: Perl bindig for Bubba platform information library
