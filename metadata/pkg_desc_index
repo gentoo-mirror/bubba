@@ -1,7 +1,7 @@
 app-admin/bubba 1.8.2: The Bubba main package
-app-admin/bubba-backend 2.6: Excito B3 administrative scripts
+app-admin/bubba-backend 2.6-r1: Excito B3 administrative scripts
 app-admin/bubba-diskmanager 1.0-r2: Bubba disk manager handles disk functions for the Bubba web frontend
-app-admin/bubba-frontend 2.6: Excito B3 administrative scripts
+app-admin/bubba-frontend 2.6-r1: Excito B3 administrative scripts
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
 app-admin/bubba-networkmanager 0.48: Bubba network manager allows the web frontend to control various network settings
 app-crypt/cryptodev-linux 1.6: Cryptodev-linux module
@@ -25,7 +25,7 @@ net-misc/bubba-easyfind 2.6-r6: Excito B3 easyfind service
 net-misc/evohome-client 0.2.5: Python client to access the Evohome web service
 net-misc/forked-easyfind-client 0.3: Easyfind client
 net-p2p/filetransferdaemon 0.55: Excito library utils
-sys-apps/bubba-install 1.8: Misc init scripts for the Excito B3 miniserver
+sys-apps/bubba-install 1.8-r1: Misc init scripts for the Excito B3 miniserver
 sys-apps/sysvinit 2.88-r100: /sbin/init - parent of all processes
 sys-kernel/gentoo-sources 4.0.1 4.1.6 4.3.0: Full sources including the Gentoo patchset for the 4.3 kernel tree
 sys-power/bubba-buttond 1.4-r4: Excito B3 power control
