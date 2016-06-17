@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install prepare
+DEFINED_PHASES=compile install postinst prepare
 DEPEND=dev-libs/libeutils dev-libs/libsigc++ dev-libs/popt dev-libs/boost libtorrent? ( net-libs/rb_libtorrent ) virtual/pkgconfig
 DESCRIPTION=Excito library utils
 EAPI=5
@@ -10,6 +10,6 @@ RDEPEND=dev-libs/libeutils dev-libs/libsigc++ dev-libs/popt dev-libs/boost libto
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://update.excito.org/pool/main/f/filetransferdaemon/filetransferdaemon_0.55.tar.gz
-_eclass_exported_funcs=src_prepare:- src_compile:- src_install:-
+_eclass_exported_funcs=pkg_postinst:- src_prepare:- src_compile:- src_install:-
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	systemd	3165c885f3c71ffae7a867d931fb0e07	toolchain-funcs	c9d9187f4caa4026a0ceddd8dfceb3c1
-_md5_=83af0657bad4c097ac6d62d2d84cddb5
+_md5_=de16cfc92831d66227afb5e0e2265a18
