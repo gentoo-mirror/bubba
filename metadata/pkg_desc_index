@@ -23,7 +23,7 @@ media-sound/logitechmediaserver-bin 7.8.0 7.8.0-r2: Logitech Media Server (strea
 net-libs/nodejs 0.10.5: Evented IO for V8 Javascript
 net-misc/bubba-easyfind 2.6-r6: Excito B3 easyfind service
 net-misc/evohome-client 0.2.5: Python client to access the Evohome web service
-net-misc/forked-easyfind-client 0.3: Easyfind client
+net-misc/forked-easyfind-client 0.3 0.3.1: Easyfind client
 net-p2p/filetransferdaemon 0.55-r1: Excito library utils
 sys-apps/bubba-install 1.8-r1: Misc init scripts for the Excito B3 miniserver
 sys-apps/sysvinit 2.88-r100: /sbin/init - parent of all processes
