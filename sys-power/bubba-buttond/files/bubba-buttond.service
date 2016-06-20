@@ -2,9 +2,9 @@
 Description=Bubba buttond daemon
 
 [Service]
+Type=forking
 PIDFile=/run/bubba-buttond.pid
 ExecStart=/opt/bubba/sbin/buttond
 
 [Install]
-WantedBy=sysinit.target
-
+WantedBy=multi-user.target
