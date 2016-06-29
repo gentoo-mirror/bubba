@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install postinst prepare
+DEPEND=dev-libs/glib dev-libs/libeutils dev-libs/libnl dev-libs/libsigc++ dev-libs/popt systemd? ( net-misc/networkmanager[-dhclient,dhcpcd] )
+DESCRIPTION=Bubba network manager allows the web frontend to control various network settings
+EAPI=5
+HOMEPAGE=http://www.excito.com/
+IUSE=+wifi systemd
+KEYWORDS=~arm ~ppc
+LICENSE=GPL-3
+RDEPEND=dev-libs/glib dev-libs/libeutils dev-libs/libnl dev-libs/libsigc++ dev-libs/popt systemd? ( net-misc/networkmanager[-dhclient,dhcpcd] ) net-misc/dhcpcd wifi? ( net-misc/bridge-utils net-wireless/hostapd net-wireless/iw net-wireless/wireless-tools )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://update.excito.org/pool/main/b/bubba-networkmanager/bubba-networkmanager_0.48.tar.gz
+_eclass_exported_funcs=pkg_postinst:- src_prepare:- src_compile:- src_install:-
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	e886935aae2b45a545665444ab0667cf
+_md5_=fb9b2641fb87d9c7347057a96e992ee7
