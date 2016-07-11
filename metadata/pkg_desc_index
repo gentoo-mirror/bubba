@@ -1,4 +1,4 @@
-app-admin/bubba 1.8.2: The Bubba main package
+app-admin/bubba 1.8.2 1.8.5: The Bubba main package
 app-admin/bubba-backend 2.6-r1: Excito B3 administrative scripts
 app-admin/bubba-diskmanager 1.0-r2: Bubba disk manager handles disk functions for the Bubba web frontend
 app-admin/bubba-frontend 2.6-r1: Excito B3 administrative scripts
@@ -29,6 +29,7 @@ sys-apps/bubba-install 1.8-r1: Misc init scripts for the Excito B3 miniserver
 sys-apps/sysvinit 2.88-r100: /sbin/init - parent of all processes
 sys-kernel/gentoo-sources 4.0.1 4.1.6 4.3.0: Full sources including the Gentoo patchset for the 4.3 kernel tree
 sys-power/bubba-buttond 1.4-r4 1.4-r5: Excito B3 power control
+virtual/bubba-version 1.8: Virtual for Bubba Version
 virtual/jdk 1.5.0-r3 1.6.0 1.7.0-r99 1.8.0-r99: Virtual for Java Development Kit (JDK)
 virtual/jre 1.8.0-r1: Virtual for Java Runtime Environment (JRE)
 www-apps/codeigniter-bin 2.2.2: CodeIgniter PHP framework for full-featured web applications

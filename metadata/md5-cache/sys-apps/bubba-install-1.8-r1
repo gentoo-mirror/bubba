@@ -9,4 +9,4 @@ LICENSE=GPL-3+
 RDEPEND=app-admin/bubba
 SLOT=0
 _eclass_exported_funcs=pkg_postrm:- pkg_postinst:- src_install:-
-_md5_=d31557d10e17bc949f9f6306cd06b61e
+_md5_=31d6a26097ca74dbc007c5a85ee6160f
