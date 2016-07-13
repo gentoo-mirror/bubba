@@ -17,7 +17,7 @@ dev-perl/libbubba-info-perl 1.2-r2: Perl bindig for Bubba platform information l
 dev-php/libbubba-info-php 1.2-r2: PHP binding for Bubba platform information library
 dev-python/python-bubba-info 1.0: Python binding for Bubba platform information library
 mail-client/bubba-roundcube 1.0.6-r1: A browser-based multilingual IMAP client with an application-like user interface
-media-gfx/singapore 0.10.1_pre160504: Singapore Image Gallery
+media-gfx/singapore 0.10.1_pre160712: Singapore Image Gallery
 media-sound/logitechmediaserver 7.8.0-r1: Logitech Media Server (streaming audio server)
 media-sound/logitechmediaserver-bin 7.8.0 7.8.0-r2 7.8.0_p1-r2: Logitech Media Server (streaming audio server)
 net-libs/nodejs 0.10.5: Evented IO for V8 Javascript
