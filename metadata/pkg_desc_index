@@ -4,9 +4,9 @@ app-admin/bubba-diskmanager 1.0-r2: Bubba disk manager handles disk functions fo
 app-admin/bubba-frontend 2.6-r1: Excito B3 administrative scripts
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
 app-admin/bubba-networkmanager 0.48-r1: Bubba network manager allows the web frontend to control various network settings
-app-admin/bubbagen 1.8.2 1.8.5-r1: The Bubba main package
+app-admin/bubbagen 1.8.2 1.8.5-r1 1.9.0 1.9.5: The Bubba main package
 app-crypt/cryptodev-linux 1.6: Cryptodev-linux module
-app-misc/domoticz 3.5015 3.5466 3.5514 3.5609 3.5631 3.5814 3.5949 9999: Home automation system
+app-misc/domoticz 3.5015 3.5514 3.5949 3.6136 9999: Home automation system
 app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
 dev-java/openjdk-bin 6.1.13.10 7.2.6.4 8.0.0.1: Debian precompile Java SE Development Kit
 dev-java/oracle-ejdk-bin 1.8.0.91: Oracle's Java embedded SE Development Kit
@@ -26,7 +26,7 @@ net-libs/nodejs 0.10.5: Evented IO for V8 Javascript
 net-misc/bubba-easyfind 2.6-r6: Excito B3 easyfind service
 net-misc/evohome-client 0.2.5: Python client to access the Evohome web service
 net-misc/forked-easyfind-client 0.3 0.3.1 0.3.1-r1: Easyfind client
-net-p2p/filetransferdaemon 0.55-r1: Excito library utils
+net-p2p/filetransferdaemon 0.55-r2: Excito library utils
 sys-apps/bubba-install 1.8-r1: Misc init scripts for the Excito B3 miniserver
 sys-apps/sysvinit 2.88-r100: /sbin/init - parent of all processes
 sys-kernel/gentoo-sources 4.0.1 4.1.6 4.3.0: Full sources including the Gentoo patchset for the 4.3 kernel tree

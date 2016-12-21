@@ -1,0 +1,14 @@
+DEFINED_PHASES=install prepare
+DEPEND=!sys-apps/b3-init-scripts >=virtual/udev-215 >=sys-apps/ethtool-3.12.1 !virtual/bubba:0/0
+DESCRIPTION=The Bubba main package
+EAPI=5
+HOMEPAGE=https://github.com/gordonb3/bubbagen
+KEYWORDS=~arm ~ppc
+LICENSE=GPL-3+
+RDEPEND=!sys-apps/b3-init-scripts >=virtual/udev-215 >=sys-apps/ethtool-3.12.1 !virtual/bubba:0/0 app-admin/bubba-frontend app-admin/bubba-manual sys-power/bubba-buttond
+RESTRICT=mirror
+SLOT=0/1.9
+SRC_URI=https://github.com/gordonb3/bubbagen/archive/1.9.tar.gz -> bubbagen-1.9.0.tgz
+_eclass_exported_funcs=src_prepare:- src_install:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=63ab466dc3bf24a57f8d519df71025ae
