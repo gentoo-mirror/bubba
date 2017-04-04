@@ -3,7 +3,7 @@ app-admin/bubba-diskmanager 1.0-r2: Bubba disk manager handles disk functions fo
 app-admin/bubba-frontend 2.6-r2: Excito B3 administrative scripts
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
 app-admin/bubba-networkmanager 0.48-r1: Bubba network manager allows the web frontend to control various network settings
-app-admin/bubbagen 1.8.2 1.8.5-r1 1.9.0 1.9.5: The Bubba main package
+app-admin/bubbagen 1.8.2 1.8.5-r1 1.9.0 1.9.1 1.9.5 1.9.6: The Bubba main package
 app-crypt/cryptodev-linux 1.6: Cryptodev-linux module
 app-misc/domoticz 3.5015 3.5877 3.5949 3.7153 9999: Home automation system
 app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
@@ -27,7 +27,7 @@ net-libs/libtorrent-rasterbar 0.16.19: C++ BitTorrent implementation focusing on
 net-libs/nodejs 0.10.5: Evented IO for V8 Javascript
 net-misc/bubba-easyfind 2.6-r6: Excito B3 easyfind service
 net-misc/evohome-client 0.2.5: Python client to access the Evohome web service
-net-misc/forked-easyfind-client 0.3 0.3.1 0.3.1-r1: Easyfind client
+net-misc/forked-easyfind-client 0.3.1-r1: Easyfind client
 net-misc/networkmanager 1.0.12-r1: A set of co-operative tools that make networking simple and straightforward
 net-p2p/filetransferdaemon 0.55-r3: Excito library utils
 sys-apps/bubba-install 1.8-r1 1.9: Misc init scripts for the Excito B3 miniserver
