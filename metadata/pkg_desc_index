@@ -21,7 +21,7 @@ dev-python/python-bubba-info 1.0: Python binding for Bubba platform information 
 mail-client/bubba-roundcube 1.0.6-r1 1.2.4: A browser-based multilingual IMAP client with an application-like user interface
 media-gfx/singapore 0.10.1_pre160712: Singapore Image Gallery
 media-sound/logitechmediaserver 7.8.0-r1: Logitech Media Server (streaming audio server)
-media-sound/logitechmediaserver-bin 7.8.0 7.8.0-r2 7.8.0_p1-r2: Logitech Media Server (streaming audio server)
+media-sound/logitechmediaserver-bin 7.8.0 7.8.0-r2 7.8.0-r4 7.8.0_p1-r2: Logitech Media Server (streaming audio server)
 net-firewall/xtables-addons 2.11: iptables extensions not yet accepted in the main kernel
 net-libs/libtorrent-rasterbar 0.16.19: C++ BitTorrent implementation focusing on efficiency and scalability
 net-libs/nodejs 0.10.5: Evented IO for V8 Javascript
