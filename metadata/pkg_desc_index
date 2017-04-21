@@ -7,7 +7,7 @@ app-admin/bubbagen 1.8.2 1.8.5-r1 1.9.0 1.9.1 1.9.5 1.9.6: The Bubba main packag
 app-crypt/cryptodev-linux 1.6: Cryptodev-linux module
 app-misc/domoticz 3.5015 3.5877 3.5949 3.7153 3.7253 9999: Home automation system
 app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
-dev-java/openjdk-bin 6.1.13.10 7.2.6.4 8.0.0.1: Debian precompile Java SE Development Kit
+dev-java/openjdk-bin 6.1.13.10 7.2.6.8 8.0.121: Debian precompile Java SE Development Kit
 dev-java/oracle-ejdk-bin 1.8.0.91: Oracle's Java embedded SE Development Kit
 dev-libs/libbubba-info 1.3: Bubba platform information library
 dev-libs/libeutils 0.7.39-r2: Excito library utils
