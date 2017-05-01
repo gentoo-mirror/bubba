@@ -5,7 +5,7 @@ app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
 app-admin/bubba-networkmanager 0.48-r1: Bubba network manager allows the web frontend to control various network settings
 app-admin/bubbagen 1.8.2 1.8.5-r1 1.9.0 1.9.1 1.9.1-r1 1.9.5 1.9.6 1.9.6-r1: The Bubba main package
 app-crypt/cryptodev-linux 1.6: Cryptodev-linux module
-app-misc/domoticz 3.5015 3.5877 3.5949 3.7153 3.7253 9999: Home automation system
+app-misc/domoticz 3.5015 3.5877 3.5949 3.7253 3.7403 9999: Home automation system
 app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
 dev-java/openjdk-bin 6.1.13.10 7.2.6.8 8.0.121: Debian precompile Java SE Development Kit
 dev-java/oracle-ejdk-bin 1.8.0.91: Oracle's Java embedded SE Development Kit
