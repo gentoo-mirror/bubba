@@ -4,13 +4,14 @@
 
 EAPI=6
 
+ORG_PN=${PN/bubba-//}
 MY_PN=${PN/bubba-//}mail
 MY_P=${MY_PN}-${PV/_/-}
 MY_HTDOCSDIR="/opt/roundcube/htdocs"
 
 DESCRIPTION="A browser-based multilingual IMAP client with an application-like user interface"
 HOMEPAGE="http://roundcube.net"
-SRC_URI="https://github.com/${PN}/${MY_PN}/releases/download/${PV/_/-}/${MY_P}.tar.gz"
+SRC_URI="https://github.com/${ORG_PN}/${MY_PN}/releases/download/${PV/_/-}/${MY_P}.tar.gz"
 
 # roundcube is GPL-licensed, the rest of the licenses here are
 # for bundled PEAR components, googiespell and utf8.class.php
