@@ -7,8 +7,8 @@ EAPI="5"
 inherit cmake-utils eutils systemd toolchain-funcs
 
 #EGIT_REPO_URI="git://github.com/domoticz/domoticz.git"
-COMMIT="78af35c"
-CTIME="2017-04-30 17:33:55 +0200"
+COMMIT="494fff7"
+CTIME="2017-07-30 12:19:41 +0200"
 
 SRC_URI="https://github.com/domoticz/domoticz/archive/${COMMIT}.zip -> ${PN}-${PV}.zip"
 RESTRICT="mirror"
@@ -17,7 +17,7 @@ HOMEPAGE="http://domoticz.com/"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~arm ~ppc"
-IUSE="systemd telldus openzwave python"
+IUSE="systemd telldus openzwave python i2c +spi"
 
 
 RDEPEND="net-misc/curl
@@ -62,13 +62,14 @@ src_prepare() {
 
 
 	# Hard disable static boost:
-	sed \
-		-e "s:\${USE_STATIC_BOOST}:OFF:" \
-		-i CMakeLists.txt
+	#sed \
+	#	-e "s:\${USE_STATIC_BOOST}:OFF:" \
+	#	-i CMakeLists.txt
 
-	use python || {
+	use telldus || {
 		sed \
-		-e "/option(USE_PYTHON_PLUGINS/c option(USE_PYTHON_PLUGINS NO)" \
+		-e "s/libtelldus-core.so/libtelldus-core.so.invalid/" \
+		-e "/Found telldus/d" \
 		-i CMakeLists.txt
 	}
 
@@ -80,7 +81,11 @@ src_configure() {
 		-DCMAKE_CXX_FLAGS_GENTOO="-O3 -DNDEBUG"
 		-DCMAKE_INSTALL_PREFIX="/opt/domoticz"
 		-DBoost_INCLUDE_DIR="OFF"
-		-DUSE_STATIC_BOOST="OFF"
+		-DUSE_STATIC_BOOST="NO"
+		-DUSE_PYTHON=$(usex python)
+		-DINCLUDE_LINUX_I2C=$(usex i2c)
+		-DINCLUDE_SPI=$(usex spi)
+		-DUSE_STATIC_OPENZWAVE=$(usex openzwave)
 	)
 
 	cmake-utils_src_configure
