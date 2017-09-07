@@ -4,5 +4,4 @@ EAPI=6
 KEYWORDS=~arm
 RDEPEND=|| ( dev-java/openjdk-bin:6 )
 SLOT=1.6
-_eclass_exported_funcs=-
 _md5_=0d75857a13783e92b79a92f880514795
