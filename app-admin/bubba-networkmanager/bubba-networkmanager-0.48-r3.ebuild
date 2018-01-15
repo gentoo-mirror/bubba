@@ -45,6 +45,7 @@ src_prepare() {
         epatch ${FILESDIR}/${PN}-${MY_PV}-fqdn.patch
 	if use systemd; then
 		epatch ${FILESDIR}/${PN}-${MY_PV}-systemd.patch
+		epatch ${FILESDIR}/systemd-cpp5.patch
 	else
 		epatch ${FILESDIR}/${PN}-${MY_PV}-netconf.patch
 		epatch ${FILESDIR}/${PN}-${MY_PV}-sysfs.patch
