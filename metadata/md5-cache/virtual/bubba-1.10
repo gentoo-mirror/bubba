@@ -5,4 +5,4 @@ IUSE=systemd
 KEYWORDS=~arm ~ppc
 RDEPEND=!systemd? ( app-admin/bubbagen:0/1.10 ) systemd? ( app-admin/bubbagen:0/1.10.5 )
 SLOT=0/1.10
-_md5_=9cad4db7ee93e9a801f8221d31f5cf03
+_md5_=a9d34f373454d740bdaac5d04ac98f75
