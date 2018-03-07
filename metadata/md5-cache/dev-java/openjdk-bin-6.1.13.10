@@ -1,15 +1,15 @@
 DEFINED_PHASES=install postinst postrm prepare prerm setup unpack
-DEPEND=app-arch/zip pax_kernel? ( sys-apps/paxctl ) >=dev-java/java-config-2.2.0-r3 >=app-eselect/eselect-java-0.2.0
+DEPEND=app-arch/zip pax_kernel? ( sys-apps/paxctl ) >=dev-java/java-config-2.2.0-r3 >=app-eselect/eselect-java-0.4.0
 DESCRIPTION=Debian precompile Java SE Development Kit
 EAPI=5
 HOMEPAGE=http://openjdk.java.net/
 IUSE=alsa cups doc +fontconfig headless-awt javafx nsplugin pax_kernel selinux source
 KEYWORDS=~arm
 LICENSE=GPL-2-with-linking-exception
-RDEPEND=!headless-awt? ( x11-libs/libX11 x11-libs/libXext x11-libs/libXi x11-libs/libXrender x11-libs/libXtst ) javafx? ( dev-libs/glib:2 dev-libs/libxml2:2 dev-libs/libxslt media-libs/freetype:2 x11-libs/cairo x11-libs/gtk+:2 x11-libs/libX11 x11-libs/libXtst x11-libs/libXxf86vm x11-libs/pango virtual/opengl ) alsa? ( media-libs/alsa-lib ) cups? ( net-print/cups ) doc? ( dev-java/java-sdk-docs:6 ) fontconfig? ( media-libs/fontconfig:1.0 ) !prefix? ( sys-libs/glibc:* ) selinux? ( sec-policy/selinux-java ) >=dev-java/java-config-2.2.0-r3 >=app-eselect/eselect-java-0.2.0
+RDEPEND=!headless-awt? ( x11-libs/libX11 x11-libs/libXext x11-libs/libXi x11-libs/libXrender x11-libs/libXtst ) javafx? ( dev-libs/glib:2 dev-libs/libxml2:2 dev-libs/libxslt media-libs/freetype:2 x11-libs/cairo x11-libs/gtk+:2 x11-libs/libX11 x11-libs/libXtst x11-libs/libXxf86vm x11-libs/pango virtual/opengl ) alsa? ( media-libs/alsa-lib ) cups? ( net-print/cups ) doc? ( dev-java/java-sdk-docs:6 ) fontconfig? ( media-libs/fontconfig:1.0 ) !prefix? ( sys-libs/glibc:* ) selinux? ( sec-policy/selinux-java ) >=dev-java/java-config-2.2.0-r3 >=app-eselect/eselect-java-0.4.0
 REQUIRED_USE=javafx? ( alsa fontconfig )
 RESTRICT=mirror
 SLOT=6
 SRC_URI=http://security.debian.org/debian-security/pool/updates/main/o//openjdk-6/openjdk-6-jre-lib_6b38-1.13.10-1~deb7u1_all.deb http://security.debian.org/debian-security/pool/updates/main/o//openjdk-6/openjdk-6-jre-headless_6b38-1.13.10-1~deb7u1_armel.deb http://security.debian.org/debian-security/pool/updates/main/o//openjdk-6/openjdk-6-jre_6b38-1.13.10-1~deb7u1_armel.deb http://security.debian.org/debian-security/pool/updates/main/o//openjdk-6/openjdk-6-jdk_6b38-1.13.10-1~deb7u1_armel.deb
-_eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	63392afb034aad67f17fa129019eb4d9	fdo-mime	995b19d3f30e956b4e1bc5a91fdc4ea7	java-vm-2	477ca23a49dfcd57017ee7f3bed47564	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	pax-utils	b963274a93e76570a88168c1f1db4cd7	prefix	e51c7882b7b721e54e684f7eb143cbfe	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	versionator	ce21313503c41896ebcd7d58b0607e37
+_eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	63392afb034aad67f17fa129019eb4d9	fdo-mime	995b19d3f30e956b4e1bc5a91fdc4ea7	java-vm-2	4bfadfc5f287bc2d37a371b78396ea2e	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	pax-utils	b963274a93e76570a88168c1f1db4cd7	prefix	e51c7882b7b721e54e684f7eb143cbfe	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	versionator	ce21313503c41896ebcd7d58b0607e37
 _md5_=c8b0c1fd8c774a9d078fb018d9040fc6
