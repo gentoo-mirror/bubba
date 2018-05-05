@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install postinst preinst prepare setup unpack
+DEFINED_PHASES=compile config install postinst preinst prepare setup unpack
 DEPEND=!media-sound/squeezecenter !media-sound/squeezeboxserver app-arch/unzip dev-vcs/subversion dev-lang/nasm || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync virtual/pkgconfig
 DESCRIPTION=Logitech Media Server (streaming audio server)
 EAPI=5
