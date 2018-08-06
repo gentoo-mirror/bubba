@@ -1,15 +1,15 @@
 DEFINED_PHASES=compile configure install postinst prepare setup test unpack
-DEPEND==net-libs/nodejs-0.10.5[-snapshot] dev-ruby/coffee-script dev-perl/Locale-PO dev-perl/Getopt-Long-Descriptive app-admin/bubba-backend dev-lang/perl:=[-build(-)] virtual/pkgconfig
+DEPEND=net-libs/nodejs dev-ruby/coffee-script dev-perl/Locale-PO dev-perl/Getopt-Long-Descriptive app-admin/bubba-backend dev-lang/perl:=[-build(-)] virtual/pkgconfig
 DESCRIPTION=Excito B3 administrative scripts
 EAPI=5
 HOMEPAGE=http://www.excito.com/
 IUSE=+apache2 nginx systemd debug
 KEYWORDS=~arm ~ppc
 LICENSE=GPL-3
-RDEPEND==net-libs/nodejs-0.10.5[-snapshot] dev-ruby/coffee-script dev-perl/Locale-PO dev-perl/Getopt-Long-Descriptive app-admin/bubba-backend app-admin/hddtemp dev-lang/php[cgi,fpm,sockets,json,xml,gd,pdo,crypt,imap] apache2? ( dev-lang/php[apache2] ) apache2? ( >=www-servers/apache-2.4.9[apache2_modules_proxy,apache2_modules_proxy_fcgi,apache2_modules_proxy_http,apache2_modules_rewrite] ) nginx? ( www-servers/nginx[nginx_modules_http_proxy,nginx_modules_http_rewrite,nginx_modules_http_fastcgi,nginx_modules_http_access,nginx_modules_http_auth_basic,nginx_modules_http_referer] ) www-apps/codeigniter-bin dev-php/libbubba-info-php dev-php/PEAR-HTTP_Request2 systemd? ( sys-apps/systemd ) dev-lang/perl:=[-build(-)]
+RDEPEND=net-libs/nodejs dev-ruby/coffee-script dev-perl/Locale-PO dev-perl/Getopt-Long-Descriptive app-admin/bubba-backend app-admin/hddtemp dev-lang/php[cgi,fpm,sockets,json,xml,gd,pdo,crypt,imap] dev-php/PEAR-HTTP_Request2 sys-apps/bubba-info[php] www-apps/codeigniter-bin apache2? ( dev-lang/php[apache2] sys-apps/bubba-info[apache2] >=www-servers/apache-2.4.9[apache2_modules_proxy,apache2_modules_proxy_fcgi,apache2_modules_proxy_http,apache2_modules_rewrite] ) nginx? ( www-servers/nginx[nginx_modules_http_proxy,nginx_modules_http_rewrite,nginx_modules_http_fastcgi,nginx_modules_http_access,nginx_modules_http_auth_basic,nginx_modules_http_referer] ) systemd? ( sys-apps/systemd ) dev-lang/perl:=[-build(-)]
 REQUIRED_USE=^^ ( apache2 nginx )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://b3.update.excito.org/pool/main/b/bubba-frontend/bubba-frontend_2.6.tar.gz http://code.jquery.com/jquery-1.4.2.js http://code.jquery.com/ui/1.8.12/jquery-ui.js -> jquery-ui-1.8.12.js https://raw.githubusercontent.com/gordonb3/bubbagen/3544997/reference/gentoo_logo.png
 _eclasses_=desktop	1b286a7e7143d8c4ec89cd0d2743a097	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	b43d08fe0771faf2f5e7be19c2789d33	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	cac3169468f893670dac3e7cb940e045	perl-functions	01e8c68d5a528bbcda4d3c60205983df	perl-module	863b35d127db98823d439f8d73c2d011	preserve-libs	ef207dc62baddfddfd39a164d9797648	systemd	04e50685fbf3d89e5c67ac6a385dd595	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	unpacker	87633b2194cdb56adaa1f5a5c8862c44	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=10098d8a92b9dbf2a462e9c5fac1b087
+_md5_=a6dfd6b8dd9a223a20e6ee6ba2cb348a
