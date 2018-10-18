@@ -1,3 +1,4 @@
+dev-perl/SQL-Abstract 1.780.0: Generate SQL from Perl data structures
 dev-python/cryptography 1.7.1: Library providing cryptographic recipes and primitives
 dev-python/urllib3 1.12 1.16: HTTP library with thread-safe connection pooling, file post, and more
 mail-client/bubba-roundcube 1.0.6-r1 1.2.5 1.3.6: A browser-based multilingual IMAP client with an application-like user interface
