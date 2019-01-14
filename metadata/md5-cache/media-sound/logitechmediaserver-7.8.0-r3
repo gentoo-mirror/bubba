@@ -6,9 +6,9 @@ HOMEPAGE=http://www.mysqueezebox.com/download
 IUSE=systemd
 KEYWORDS=~amd64 ~x86 ~arm
 LICENSE=logitechmediaserver
-RDEPEND=!prefix? ( >=sys-apps/baselayout-2.0.0 ) !prefix? ( virtual/logger ) dev-db/sqlite >=dev-lang/perl-5.8.8[ithreads] >=dev-perl/Data-UUID-1.202 =dev-perl/Class-XSAccessor-1.190.0 dev-perl/Image-Scale[gif,jpeg,png] dev-perl/Template-Toolkit[gd] dev-perl/Audio-Scan dev-perl/YAML-LibYAML dev-perl/Sub-Name dev-perl/IO-Interface dev-perl/Digest-SHA1 dev-perl/Encode-Detect dev-perl/HTML-Parser dev-perl/EV dev-perl/JSON-XS dev-perl/IO-AIO dev-perl/Linux-Inotify2 dev-perl/XML-Parser dev-perl/Class-C3-XS dev-perl/DBIx-Class dev-perl/DBI
+RDEPEND=!prefix? ( >=sys-apps/baselayout-2.0.0 ) !prefix? ( virtual/logger ) dev-db/sqlite >=dev-lang/perl-5.8.8[ithreads] >=dev-perl/Data-UUID-1.202 =dev-perl/Audio-Scan-0.930.0-r1 =dev-perl/Class-XSAccessor-1.190.0 =dev-perl/DBIx-Class-0.82.700 =dev-perl/SQL-Abstract-1.780.0 dev-perl/CGI dev-perl/Class-C3-XS dev-perl/DBD-SQLite dev-perl/DBI dev-perl/Digest-SHA1 dev-perl/Encode-Detect dev-perl/EV dev-perl/HTML-Parser dev-perl/Image-Scale[gif,jpeg,png] dev-perl/IO-AIO dev-perl/IO-Interface dev-perl/JSON-XS dev-perl/Linux-Inotify2 dev-perl/Sub-Name dev-perl/Template-Toolkit[gd] dev-perl/XML-Parser dev-perl/YAML-LibYAML
 RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=http://downloads.slimdevices.com/LogitechMediaServer_v7.8.0/logitechmediaserver-7.8.0-noCPAN.tgz
 _eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	08f9e1d9ee0af8f5d9a7854efbcd8c0e	multilib	b2f01ad412baf81650c23fcf0975fa33	preserve-libs	ef207dc62baddfddfd39a164d9797648	subversion	3d1eb4b41d7190570a84f786958ebb13	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	user	8bc2845510e2109af75e3eeac607ec81	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=fe20dc851dc142197baad21417898f87
+_md5_=dc46414aa482b85dd14d71520b07ce11
