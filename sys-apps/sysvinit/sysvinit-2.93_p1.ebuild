@@ -16,7 +16,7 @@ LICENSE="GPL-2"
 SLOT="0"
 [[ "${PV}" == *beta* ]] || \
 KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86"
-IUSE="selinux ibm static kernel_FreeBSD feroceon"
+IUSE="selinux ibm static kernel_FreeBSD +feroceon"
 
 CDEPEND="
 	selinux? (
