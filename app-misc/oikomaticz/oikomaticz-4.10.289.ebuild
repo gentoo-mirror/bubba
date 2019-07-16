@@ -6,20 +6,20 @@ EAPI="5"
 
 inherit cmake-utils eutils systemd toolchain-funcs
 
-#EGIT_REPO_URI="git://github.com/domoticz/domoticz.git"
-COMMIT="7f79ad1c"
-CTIME="2018-11-26 11:43:51 +0100"
+#EGIT_REPO_URI="git://github.com/gordonb3/${PN}.git"
+COMMIT="6e0240e5"
+CTIME="2019-02-12 12:01:45 +0100"
 
-SRC_URI="https://github.com/domoticz/domoticz/archive/${COMMIT}.zip -> ${PN}-${PV}.zip"
+SRC_URI="https://github.com/gordonb3/${PN}/archive/${COMMIT}.zip -> ${PN}-${PV}.zip"
 RESTRICT="mirror"
 DESCRIPTION="Home automation system"
-HOMEPAGE="http://domoticz.com/"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~ppc ~x86"
 IUSE="systemd telldus openzwave python i2c +spi static-libs examples"
 
-
+VMAJOR=${PV:0:1}
+SLOT="0/${VMAJOR}"
 
 RDEPEND="net-misc/curl
 	dev-libs/libusb
@@ -36,7 +36,7 @@ RDEPEND="net-misc/curl
 	)
 	telldus? ( app-misc/telldus-core )
 	openzwave? ( dev-libs/openzwave )
-	python? ( dev-lang/python )
+	python? ( >=dev-lang/python-3.4 )
 	dev-libs/openssl[static-libs=]
 "
 
@@ -59,13 +59,13 @@ src_prepare() {
 	ProjectHash=${COMMIT:0:7}
 	ProjectRevision=${PV:2}
 	ProjectDate=$(date -d "${CTIME}" +"%s")
-	elog "building ${PN} version ${ProjectRevision}, using Git commit \"${ProjectHash}\" from ${CTIME}"
-	echo -e "#define APPVERSION ${ProjectRevision}\n#define APPHASH \"${ProjectHash}\"\n#define APPDATE ${ProjectDate}\n" > appversion.h
+	elog "building ${PN} version ${PV}, using Git commit \"${ProjectHash}\" from ${CTIME}"
+	echo -e "#pragma once\n#define VERSION_STRING \"${VMAJOR}.\"\n#define APPVERSION \"${ProjectRevision}\"\n#define APPHASH \"${ProjectHash}\"\n#define APPDATE ${ProjectDate}\n" > appversion.h
 	echo 'execute_process(COMMAND ${CMAKE_COMMAND} -E copy_if_different appversion.h appversion.h.txt)' > getgit.cmake
 	sed \
 		-e "/^Gitversion_GET_REVISION/cset(ProjectRevision ${ProjectRevision})" \
 		-e "/^MATH(EXPR ProjectRevision/d" \
-		-e "s/+2107/+0/" \
+		-e "s/^.*+2107.*$/#/" \
 		-i CMakeLists.txt
 
 
@@ -93,12 +93,12 @@ src_configure() {
 		-DCMAKE_BUILD_TYPE="Release"
 		-DCMAKE_CXX_FLAGS_GENTOO="-O3 -DNDEBUG"
 		-DCMAKE_INSTALL_PREFIX="/opt/${PN}"
+		-DWITH_PYTHON=$(usex python)
+		-DWITH_LINUX_I2C=$(usex i2c)
+		-DWITH_SPI=$(usex spi)
 		-DUSE_STATIC_BOOST=$(usex static-libs)
-		-DUSE_PYTHON=$(usex python)
-		-DINCLUDE_LINUX_I2C=$(usex i2c)
-		-DINCLUDE_SPI=$(usex spi)
 		-DUSE_STATIC_OPENZWAVE=$(usex static-libs)
-		-DUSE_OPENSSL_STATIC=$(usex static-libs)
+		-DUSE_STATIC_OPENSSL=$(usex static-libs)
 		-DUSE_STATIC_LIBSTDCXX=$(usex static-libs)
 		-DUSE_BUILTIN_ZLIB=$(usex static-libs)
 		-DUSE_BUILTIN_MINIZIP=$(usex static-libs)
@@ -136,7 +136,7 @@ src_install() {
 	find ${ED} -name "*.html" -exec sh -c 'grep -q "<\!--#embed" {} || gzip -9 {}' \;
 
 	# cleanup examples and non functional scripts
-	rm -rf ${ED}/opt/${PN}/{updatedomo,server_cert.pem,History.txt,License.txt}
+	rm -rf ${ED}/opt/${PN}/{updatedomo,server_cert.pem,License.txt}
 	rm -rf ${ED}/opt/${PN}/scripts/{update_domoticz,restart_domoticz,download_update.sh,_domoticz_main*,logrotate}
 	use examples || {
 		rm -rf ${ED}/opt/${PN}/scripts/{dzVents/examples,lua/*demo.lua,python/*demo.py,lua_parsers/example*,*example*}
@@ -145,9 +145,19 @@ src_install() {
 	rm -rf ${ED}/opt/${PN}/dzVents/.gitignore
 	find ${ED}/opt/${PN}/scripts -empty -type d -exec rmdir {} \;
 
-	# move scripts to /var/lib/domoticz
+	use openzwave || {
+		rm -rf ${ED}/opt/${PN}/Config
+	}
+	use python || {
+		rm -rf ${ED}/opt/${PN}/plugins
+	}
+
+	# move scripts to /var/lib/oikomaticz
 	mv ${ED}/opt/${PN}/scripts ${ED}/var/lib/${PN}/
-	#dosym /var/lib/${PN}/scripts /opt/${PN}/scripts
+
+	# move History text to /var/lib/oikomaticz
+	mv ${ED}/opt/${PN}/History.txt ${ED}/var/lib/${PN}/
+
 }
 
 
