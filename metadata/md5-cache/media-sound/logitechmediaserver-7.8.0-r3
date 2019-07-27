@@ -6,9 +6,10 @@ HOMEPAGE=http://www.mysqueezebox.com/download
 IUSE=systemd
 KEYWORDS=~amd64 ~x86 ~arm
 LICENSE=logitechmediaserver
+PROPERTIES=live
 RDEPEND=!prefix? ( >=sys-apps/baselayout-2.0.0 ) !prefix? ( virtual/logger ) dev-db/sqlite >=dev-lang/perl-5.8.8[ithreads] >=dev-perl/Data-UUID-1.202 =dev-perl/Audio-Scan-0.930.0-r1 =dev-perl/Class-XSAccessor-1.190.0 =dev-perl/DBIx-Class-0.82.700 =dev-perl/SQL-Abstract-1.780.0 dev-perl/CGI dev-perl/Class-C3-XS dev-perl/DBD-SQLite dev-perl/DBI dev-perl/Digest-SHA1 dev-perl/Encode-Detect dev-perl/EV dev-perl/HTML-Parser dev-perl/Image-Scale[gif,jpeg,png] dev-perl/IO-AIO dev-perl/IO-Interface dev-perl/JSON-XS dev-perl/Linux-Inotify2 dev-perl/Sub-Name dev-perl/Template-Toolkit[gd] dev-perl/XML-Parser dev-perl/YAML-LibYAML
 RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=http://downloads.slimdevices.com/LogitechMediaServer_v7.8.0/logitechmediaserver-7.8.0-noCPAN.tgz
-_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	subversion	128c7b49f5671a6b089e47a6064db19e	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	user	b3c37f3375252e9ac4c6a157df4e595c	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	subversion	76e4ab6ae9cda8407c34d0b9a086f81c	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	user	b3c37f3375252e9ac4c6a157df4e595c	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
 _md5_=dc46414aa482b85dd14d71520b07ce11
