@@ -2,6 +2,13 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+dev-perl/DBIx-Class:admin - Modules required for the DBIx::Class administrative library
+dev-perl/DBIx-Class:admin_script - Modules required for the CLI DBIx::Class interface dbicadmin
+dev-perl/DBIx-Class:deploy - Modules required for "deploy" in DBIx::Class::Storage::DBI and "deploymen_statements" in DBIx::Class::Storage::DBI
+dev-perl/DBIx-Class:replicated - Modules required for DBIx::Class::Storage::DBI::Replicated
+media-sound/forked-daapd:itunes - Enable support for iTunes library XML
+media-sound/forked-daapd:lastfm - Enable LastFM scrobbling support
+media-sound/forked-daapd:mpd - Enable streaming to mpd
 net-libs/libtorrent-rasterbar:dht - Enable DHT (distributed hash table) support
 net-misc/networkmanager:connection-sharing - Use net-dns/dnsmasq and net-firewall/iptables for connection sharing
 net-misc/networkmanager:consolekit - Use sys-auth/consolekit for session tracking
@@ -16,3 +23,6 @@ net-misc/networkmanager:resolvconf - Use net-dns/openresolv for managing DNS inf
 net-misc/networkmanager:teamd - Enable Teamd control support
 net-misc/networkmanager:wext - Enable support for the deprecated Wext (Wireless Extensions) API; needed for some older drivers (e.g. ipw2200, ndiswrapper)
 net-misc/networkmanager:wifi - Enable support for wifi and 802.1x security using net-wireless/wpa_supplicant
+sys-kernel/gentoo-sources:deblob - Remove binary blobs from kernel sources to provide libre license compliance.
+sys-kernel/gentoo-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".
+sys-kernel/gentoo-sources:kdbus - Apply the kdbus patch. This also requires the "experimental" use flag.

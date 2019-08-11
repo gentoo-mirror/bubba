@@ -1,6 +1,40 @@
+app-admin/bubba-backend 2.6-r7: Excito B3 administrative scripts
+app-admin/bubba-diskmanager 1.0-r3: Bubba disk manager handles disk functions for the Bubba web frontend
+app-admin/bubba-frontend 2.6-r7: Excito B3 administrative scripts
+app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
+app-admin/bubba-networkmanager 0.48-r4: Bubba network manager allows the web frontend to control various network settings
+app-admin/bubbagen 1.12.0 1.12.5: The Bubba main package
+app-crypt/cryptodev-linux 1.6: Cryptodev-linux module
+app-misc/domoticz 3.5877 3.8153 4.9700 4.10262 9999: Home automation system
+app-misc/oikomaticz 4.10.289 4.10.305 9999: Home automation system
+app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
+dev-java/openjdk-bin 6.1.13.10 7.2.6.13 8.0.171: Debian precompile Java SE Development Kit
+dev-libs/openssl 1.0.2_pre150212: full-strength general purpose cryptography library (including SSL and TLS)
+dev-libs/openzwave 1.4.1 9999: free software library that interfaces with selected Z-Wave PC controllers
+dev-perl/Audio-Scan 0.930.0-r1: Fast C metadata and tag reader for all common audio file formats
+dev-perl/DBIx-Class 0.82.700: Extensible and flexible object <-> relational mapper
 dev-perl/SQL-Abstract 1.780.0: Generate SQL from Perl data structures
 dev-python/cryptography 1.7.1: Library providing cryptographic recipes and primitives
+dev-python/pyopenssl 17.0.0: Python interface to the OpenSSL library
+dev-python/urllib3 1.20: HTTP library with thread-safe connection pooling, file post, and more
 mail-client/bubba-roundcube 1.3.6: A browser-based multilingual IMAP client with an application-like user interface
+mail-filter/assp 1.10.1.16065: Anti-Spam SMTP Proxy written in Perl
+media-gfx/singapore 0.10.1_pre160712: Singapore Image Gallery
+media-sound/forked-daapd 26.4: A DAAP (iTunes) media server
+media-sound/logitechmediaserver 7.8.0-r3: Logitech Media Server (streaming audio server)
+media-sound/logitechmediaserver-bin 7.8.0_p6 7.8.0_p8: Logitech Media Server (streaming audio server)
 net-libs/libtorrent-rasterbar 1.0.11-r1: C++ BitTorrent implementation focusing on efficiency and scalability
+net-libs/nodejs 0.10.48: Evented IO for V8 Javascript
+net-misc/evohome-client 0.2.5: Python client to access the Evohome web service
+net-misc/forked-easyfind-client 0.4: Easyfind client
 net-misc/networkmanager 1.0.12-r1: A set of co-operative tools that make networking simple and straightforward
+net-p2p/filetransferdaemon 0.55-r5: Excito library utils
+sys-apps/bubba-info 1.4: Bubba platform information library
+sys-apps/bubba-install 1.11-r2 1.12: Installer for Bubbagen on the Excito B3 miniserver
+sys-apps/sysvinit 2.93_p1: /sbin/init - parent of all processes
+sys-kernel/gentoo-sources 4.0.1 4.1.6 4.3.0 4.4.39 4.9.49-r1: Full sources including the Gentoo patchset for the 4.9 kernel tree
+sys-power/bubba-buttond 1.4-r5: Excito B3 power control
+virtual/bubba 1.11 1.12: Virtual for Bubba Version
+virtual/jdk 1.5.0-r3 1.6.0 1.7.0-r99 1.8.0-r99: Virtual for Java Development Kit (JDK)
 virtual/jre 1.7.0-r2: Virtual for Java Runtime Environment (JRE)
+www-apps/codeigniter-bin 2.2.2: CodeIgniter PHP framework for full-featured web applications
