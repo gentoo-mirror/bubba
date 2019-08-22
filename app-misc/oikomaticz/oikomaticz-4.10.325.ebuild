@@ -132,9 +132,9 @@ src_install() {
 	dodoc History.txt License.txt
 
 	# compress static web content
-	find ${ED} -name "*.css" -exec gzip -9 {} \;
-	find ${ED} -name "*.js" -exec gzip -9 {} \;
-	find ${ED} -name "*.html" -exec sh -c 'grep -q "<\!--#embed" {} || gzip -9 {}' \;
+	find ${ED}/opt/${PN}/www -name "*.css" -exec gzip -9 {} \;
+	find ${ED}/opt/${PN}/www -name "*.js" -exec gzip -9 {} \;
+	find ${ED}/opt/${PN}/www -name "*.html" -exec sh -c 'grep -q "<\!--#embed" {} || gzip -9 {}' \;
 
 	# cleanup examples and non functional scripts
 	rm -rf ${ED}/opt/${PN}/{server_cert.pem,License.txt}
@@ -143,7 +143,7 @@ src_install() {
 		rm -rf ${ED}/var/lib/${PN}/scripts/{dzVents/examples,lua/*demo.lua,python/*demo.py,lua_parsers/example*,*example*}
 		rm -rf ${ED}/var/lib/${PN}/plugins/examples
 	}
-	find ${ED}/var/lib/${PN}/scripts -empty -type d -exec rmdir {} \;
+	find ${ED}/var/lib/${PN}/scripts -empty -type d -exec rm -rf {} \;
 }
 
 
