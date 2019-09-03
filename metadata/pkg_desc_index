@@ -26,7 +26,7 @@ media-sound/logitechmediaserver-bin 7.8.0_p6 7.8.0_p8: Logitech Media Server (st
 net-libs/libtorrent-rasterbar 1.0.11-r1: C++ BitTorrent implementation focusing on efficiency and scalability
 net-libs/nodejs 0.10.48: Evented IO for V8 Javascript
 net-misc/evohome-client 0.2.5: Python client to access the Evohome web service
-net-misc/forked-easyfind-client 0.4: Easyfind client
+net-misc/forked-easyfind-client 0.4 0.5: Easyfind client
 net-misc/networkmanager 1.0.12-r1: A set of co-operative tools that make networking simple and straightforward
 net-p2p/filetransferdaemon 0.55-r5: Excito library utils
 sys-apps/bubba-info 1.4: Bubba platform information library
