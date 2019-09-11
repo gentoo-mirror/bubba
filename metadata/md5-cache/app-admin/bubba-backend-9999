@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst prepare test unpack
+DEPEND=dev-lang/perl:= iptables? ( net-firewall/iptables ) nftables? ( net-firewall/nftables ) dev-lang/perl:=[-build(-)] virtual/pkgconfig
+DESCRIPTION=Excito B3 administrative scripts
+EAPI=5
+HOMEPAGE=http://www.excito.com/
+IUSE=+apache2 nginx systemd +iptables nftables
+LICENSE=GPL-3
+RDEPEND=dev-lang/perl:= iptables? ( net-firewall/iptables ) nftables? ( net-firewall/nftables ) app-admin/bubba-diskmanager app-admin/bubba-networkmanager app-arch/zip dev-perl/Config-Simple dev-perl/Config-Tiny dev-perl/Crypt-PasswdMD5 dev-perl/Crypt-SSLeay dev-perl/Expect dev-perl/File-Slurp dev-perl/IPC-Run dev-perl/IPC-Run3 >=dev-perl/JSON-2.900.0 >=dev-perl/JSON-XS-3.10.0 dev-perl/List-MoreUtils dev-perl/Try-Tiny dev-perl/XML-Parser dev-perl/XML-Simple dev-python/pycups dev-python/pyyaml >=sys-apps/bubba-info-1.4[php,perl] >=sys-libs/timezone-data-2015e systemd? ( sys-apps/systemd ) dev-lang/perl:=[-build(-)]
+REQUIRED_USE=^^ ( apache2 nginx ) ?? ( iptables nftables )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://b3.update.excito.org/pool/main/b/bubba-backend/bubba-backend_2.6.tar.gz
+_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	perl-functions	6ec4c4d8fc8324200f1c14e8d158c59b	perl-module	20c90ae7e826995a597683580cdfcdcb	preserve-libs	ef207dc62baddfddfd39a164d9797648	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	unpacker	3cd8bad0d31e525cd26be1bfa4e61631	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=e446635c86b05e77aa46b9b66594be05
