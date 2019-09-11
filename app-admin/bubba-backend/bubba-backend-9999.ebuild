@@ -59,9 +59,7 @@ src_prepare() {
 	epatch ${FILESDIR}/bubba-firewall.patch
 	epatch ${FILESDIR}/change-tz.patch
 	if use systemd; then
-		cp -a ${FILESDIR}/bubba-firewall.initd ${S}/bubba-firewall.sh
 		epatch ${FILESDIR}/systemd.patch
-		touch -r ${FILESDIR}/bubba-firewall.initd ${S}/bubba-firewall.sh
 	fi
 
 	# inconsistent service names
@@ -106,15 +104,32 @@ src_install() {
 	fi
 	doins hosts.in personal-setting-files.txt
 
-	if use systemd; then
-		systemd_dounit "${FILESDIR}/bubba-firewall.service"
-		exeinto /opt/bubba/sbin
-		doexe bubba-firewall.sh
-	else
-		newinitd ${FILESDIR}/bubba-firewall.initd  bubba-firewall
-	fi
-	newconfd ${FILESDIR}/bubba-firewall.confd  bubba-firewall
 
+	#firewall support
+	if use iptables; then
+		if use systemd; then
+			systemd_dounit "${FILESDIR}/bubba-firewall.service"
+			exeinto /opt/bubba/sbin
+			newexe ${FILESDIR}/bubba-firewall.initd bubba-firewall.sh
+		else
+			newinitd ${FILESDIR}/bubba-firewall.initd  bubba-firewall
+		fi
+		newconfd ${FILESDIR}/bubba-firewall.confd  bubba-firewall
+	fi
+	if use nftables; then
+		if use systemd; then
+			systemd_dounit "${FILESDIR}/bubba-firewall.service"
+			exeinto /opt/bubba/sbin
+			newexe ${FILESDIR}/bubba-nft.initd bubba-firewall.sh
+		else
+			newinitd ${FILESDIR}/bubba-nft.initd  bubba-firewall
+		fi
+		newconfd ${FILESDIR}/bubba-nft.confd  bubba-firewall
+	fi
+
+
+
+	# documentation
 	dodoc "${S}/debian/copyright" ${FILESDIR}/Changelog
 	newdoc "${S}/debian/changelog" changelog.debian
 	insinto /usr/share/doc/${PF}/examples
@@ -126,9 +141,9 @@ src_install() {
 	if use nftables; then
 		doins ${FILESDIR}/firewall.nft
 	fi
-
 	doins  sysctl.conf auth_template.xml
 
+	# cron targets
 	insinto /etc/cron.d
 	newins ${FILESDIR}/excito-backup.crond excito-backup
 	newins ${FILESDIR}/bubba-notify.crond bubba-notify
