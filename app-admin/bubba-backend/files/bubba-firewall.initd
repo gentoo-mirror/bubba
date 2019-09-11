@@ -44,7 +44,7 @@ flush_rules() {
 
 checkkernel() {
 	if [ ! -e ${iptables_proc} ] ; then
-		eerror "Your kernel lacks ${iptables_name} support, please load"
+		eerror "Your kernel lacks iptables support, please load"
 		eerror "appropriate modules and try again."
 		return 1
 	fi
