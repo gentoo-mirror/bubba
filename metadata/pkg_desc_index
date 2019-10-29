@@ -3,7 +3,7 @@ app-admin/bubba-diskmanager 1.0-r3: Bubba disk manager handles disk functions fo
 app-admin/bubba-frontend 2.6-r7 2.6-r8: Excito B3 administrative scripts
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
 app-admin/bubba-networkmanager 0.48-r4: Bubba network manager allows the web frontend to control various network settings
-app-admin/bubbagen 1.12.0 1.12.5: The Bubba main package
+app-admin/bubbagen 1.12.0 1.12.5 1.13.0: The Bubba main package
 app-crypt/cryptodev-linux 1.6: Cryptodev-linux module
 app-misc/domoticz 3.5877 3.8153 4.9700 4.10262 9999: Home automation system
 app-misc/oikomaticz 4.10.289 4.10.305 4.10.325 9999: Home automation system

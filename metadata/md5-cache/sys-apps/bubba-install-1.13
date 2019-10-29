@@ -1,4 +1,4 @@
-DEFINED_PHASES=install postinst postrm
+DEFINED_PHASES=install postinst postrm preinst
 DEPEND=virtual/bubba
 DESCRIPTION=Installer for Bubbagen on the Excito B3 miniserver
 EAPI=5
@@ -8,4 +8,4 @@ KEYWORDS=~arm
 LICENSE=GPL-3+
 RDEPEND=virtual/bubba
 SLOT=0
-_md5_=36b33c74978c5459427c92b52f4fa1e7
+_md5_=d25b684953202ea91dc47251f688d5e1
