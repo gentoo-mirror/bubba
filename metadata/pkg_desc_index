@@ -28,7 +28,7 @@ net-libs/nodejs 0.10.48: Evented IO for V8 Javascript
 net-misc/evohome-client 0.2.5: Python client to access the Evohome web service
 net-misc/forked-easyfind-client 0.4 0.5: Easyfind client
 net-misc/networkmanager 1.0.12-r1: A set of co-operative tools that make networking simple and straightforward
-net-p2p/filetransferdaemon 0.55-r5: Excito library utils
+net-p2p/filetransferdaemon 0.55-r6: Excito library utils
 sys-apps/bubba-info 1.4: Bubba platform information library
 sys-apps/bubba-install 1.12 1.13: Installer for Bubbagen on the Excito B3 miniserver
 sys-apps/sysvinit 2.93_p1: /sbin/init - parent of all processes
