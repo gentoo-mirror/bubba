@@ -22,7 +22,7 @@ mail-filter/assp 1.10.1.16065: Anti-Spam SMTP Proxy written in Perl
 media-gfx/singapore 0.10.1_pre160712: Singapore Image Gallery
 media-sound/forked-daapd 26.4: A DAAP (iTunes) media server
 media-sound/logitechmediaserver 7.8.0-r3: Logitech Media Server (streaming audio server)
-media-sound/logitechmediaserver-bin 7.8.0_p6 7.8.0_p8: Logitech Media Server (streaming audio server)
+media-sound/logitechmediaserver-bin 7.8.0_p6 7.8.0_p8 7.8.0_p10: Logitech Media Server (streaming audio server)
 net-libs/libtorrent-rasterbar 1.0.11-r1: C++ BitTorrent implementation focusing on efficiency and scalability
 net-libs/nodejs 0.10.48: Evented IO for V8 Javascript
 net-misc/evohome-client 0.2.5: Python client to access the Evohome web service
