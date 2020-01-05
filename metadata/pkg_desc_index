@@ -1,4 +1,4 @@
-app-admin/bubba-backend 2.6-r7 2.6-r9 9999: Excito B3 administrative scripts
+app-admin/bubba-backend 2.6-r7 2.6-r9 2.6-r10 9999: Excito B3 administrative scripts
 app-admin/bubba-diskmanager 1.0-r3: Bubba disk manager handles disk functions for the Bubba web frontend
 app-admin/bubba-frontend 2.6-r7 2.6-r8: Excito B3 administrative scripts
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
@@ -14,9 +14,6 @@ dev-libs/openzwave 1.4.1 9999: free software library that interfaces with select
 dev-perl/Audio-Scan 0.930.0-r1: Fast C metadata and tag reader for all common audio file formats
 dev-perl/DBIx-Class 0.82.700: Extensible and flexible object <-> relational mapper
 dev-perl/SQL-Abstract 1.780.0: Generate SQL from Perl data structures
-dev-python/cryptography 1.7.1: Library providing cryptographic recipes and primitives
-dev-python/pyopenssl 17.0.0: Python interface to the OpenSSL library
-dev-python/urllib3 1.20: HTTP library with thread-safe connection pooling, file post, and more
 mail-client/bubba-roundcube 1.3.6: A browser-based multilingual IMAP client with an application-like user interface
 mail-filter/assp 1.10.1.16065: Anti-Spam SMTP Proxy written in Perl
 media-gfx/singapore 0.10.1_pre160712: Singapore Image Gallery
@@ -34,7 +31,7 @@ sys-apps/bubba-install 1.12 1.13: Installer for Bubbagen on the Excito B3 minise
 sys-apps/sysvinit 2.93_p1: /sbin/init - parent of all processes
 sys-kernel/gentoo-sources 4.0.1 4.1.6 4.3.0 4.4.39 4.9.49-r1: Full sources including the Gentoo patchset for the 4.9 kernel tree
 sys-power/bubba-buttond 1.4-r5: Excito B3 power control
-virtual/bubba 1.11 1.12: Virtual for Bubba Version
+virtual/bubba 1.11 1.12 1.13: Virtual for Bubba Version
 virtual/jdk 1.5.0-r3 1.6.0 1.7.0-r99 1.8.0-r99: Virtual for Java Development Kit (JDK)
 virtual/jre 1.7.0-r2: Virtual for Java Runtime Environment (JRE)
 www-apps/codeigniter-bin 2.2.2: CodeIgniter PHP framework for full-featured web applications
