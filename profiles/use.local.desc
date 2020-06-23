@@ -9,7 +9,6 @@ dev-perl/DBIx-Class:replicated - Modules required for DBIx::Class::Storage::DBI:
 media-sound/forked-daapd:itunes - Enable support for iTunes library XML
 media-sound/forked-daapd:lastfm - Enable LastFM scrobbling support
 media-sound/forked-daapd:mpd - Enable streaming to mpd
-net-libs/libtorrent-rasterbar:dht - Enable DHT (distributed hash table) support
 sys-kernel/gentoo-sources:deblob - Remove binary blobs from kernel sources to provide libre license compliance.
 sys-kernel/gentoo-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".
 sys-kernel/gentoo-sources:kdbus - Apply the kdbus patch. This also requires the "experimental" use flag.
