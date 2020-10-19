@@ -13,7 +13,7 @@ SRC_URI="${HOMEPAGE}/releases/download/${PV}/${PF}.tar.xz -> ${PF}.tar.xz"
 
 S=${WORKDIR}
 
-LICENSE="GPL-2 freedist"
+LICENSE="GPL-2"
 KEYWORDS="~arm"
 SLOT="${PV}"
 
