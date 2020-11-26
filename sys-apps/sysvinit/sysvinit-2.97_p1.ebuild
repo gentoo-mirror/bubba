@@ -6,7 +6,7 @@ EAPI=7
 MY_P=${P/_*/}
 S="${WORKDIR}/${MY_P}"
 
-inherit toolchain-funcs flag-o-matic eutils
+inherit toolchain-funcs flag-o-matic
 
 DESCRIPTION="/sbin/init - parent of all processes"
 HOMEPAGE="https://savannah.nongnu.org/projects/sysvinit"
@@ -133,7 +133,7 @@ src_prepare() {
 
 	if use feroceon ; then
 		cd "${S}"
-		epatch "${FILESDIR}"/${MY_P}-write-magic.patch
+		eapply "${FILESDIR}"/${MY_P}-write-magic.patch
 	fi
 }
 
