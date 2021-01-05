@@ -65,6 +65,13 @@ RDEPEND=">=dev-libs/glib-2.42:2
 	>=sys-libs/zlib-1.2.8-r1
 	virtual/jpeg:62
 	sys-apps/pcsc-lite
+	x11-base/xorg-proto
+	x11-libs/libX11
+	x11-libs/libXext
+	x11-libs/libXi
+	x11-libs/libXrender
+	x11-libs/libXt
+	x11-libs/libXtst
 "
 
 DEPEND="!arm? ( dev-util/patchelf )"
