@@ -1,9 +1,6 @@
-app-admin/bubba-backend 2.6-r10 9999: Excito B3 administrative scripts
-app-admin/bubba-diskmanager 1.0-r3: Bubba disk manager handles disk functions for the Bubba web frontend
-app-admin/bubba-frontend 2.6-r9: Excito B3 administrative scripts
+app-admin/bubba-admin 2.6.1: Excito B3 administration tools and GUI
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
-app-admin/bubba-networkmanager 0.48-r5: Bubba network manager allows the web frontend to control various network settings
-app-admin/bubbagen 1.13.0 1.13.5 9999.0 9999.5: The Bubba main package
+app-admin/bubbagen 1.13.0-r1 1.13.5-r1 9999.0 9999.5: The Bubba main package
 app-crypt/cryptodev-linux 1.6: Cryptodev-linux module
 app-misc/domoticz 2020.2.11995 9999: Home automation system
 app-misc/oikomaticz 4.10.432 9999: Home automation system
@@ -14,7 +11,7 @@ dev-libs/openzwave 1.6.1044-r1 9999: free software library that interfaces with 
 dev-perl/Audio-Scan 0.930.0-r1 1.20.0: Fast C metadata and tag reader for all common audio file formats
 dev-perl/DBIx-Class 0.82.700: Extensible and flexible object <-> relational mapper
 dev-perl/Locale-Hebrew 1.50.0: bidirectional Hebrew support for Perl
-dev-perl/MP3-Cut-Gapless 0.0.3: Port of pcutmp3 to Perl with improvements
+dev-perl/MP3-Cut-Gapless 0.30: Port of pcutmp3 to Perl with improvements
 dev-perl/SQL-Abstract 1.780.0: Generate SQL from Perl data structures
 mail-client/bubba-roundcube 1.3.6: A browser-based multilingual IMAP client with an application-like user interface
 mail-filter/assp 1.10.1.16065: Anti-Spam SMTP Proxy written in Perl
@@ -26,7 +23,7 @@ net-libs/nodejs 0.10.48: Evented IO for V8 Javascript
 net-misc/evohome-client 0.3.4: Python client to access the Evohome web service
 net-misc/forked-easyfind-client 0.4 0.5: Easyfind client
 net-p2p/filetransferdaemon 0.55-r6: Excito library utils
-sys-apps/bubba-info 1.4: Bubba platform information library
+sys-apps/bubba-info 1.4 1.4-r1: Bubba platform information library
 sys-apps/bubba-install 1.13: Installer for Bubbagen on the Excito B3 miniserver
 sys-apps/sysvinit 2.97_p1: /sbin/init - parent of all processes
 sys-kernel/bubba-b3-kernel-bin 5.4.66: Binary kernel package for the B3 miniserver, from gentoo-sources
