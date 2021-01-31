@@ -20,7 +20,6 @@ media-sound/forked-daapd 26.4: A DAAP (iTunes) media server
 media-sound/logitechmediaserver 7.8.0-r3 8.0.0: Logitech Media Server (streaming audio server)
 media-sound/logitechmediaserver-bin 7.8.0_p10: Logitech Media Server (streaming audio server)
 net-libs/nodejs 0.10.48: Evented IO for V8 Javascript
-net-misc/evohome-client 0.3.4: Python client to access the Evohome web service
 net-misc/forked-easyfind-client 0.4 0.5: Easyfind client
 net-p2p/filetransferdaemon 0.55-r6: Excito library utils
 sys-apps/bubba-info 1.4 1.4-r1: Bubba platform information library
