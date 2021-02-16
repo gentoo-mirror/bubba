@@ -22,7 +22,7 @@ media-sound/logitechmediaserver-bin 7.8.0_p10: Logitech Media Server (streaming 
 net-libs/nodejs 0.10.48: Evented IO for V8 Javascript
 net-misc/forked-easyfind-client 0.4 0.5: Easyfind client
 net-p2p/filetransferdaemon 0.55-r6: Excito library utils
-sys-apps/bubba-info 1.4 1.4-r1: Bubba platform information library
+sys-apps/bubba-info 1.4-r1: Bubba platform information library
 sys-apps/bubba-install 1.13: Installer for Bubbagen on the Excito B3 miniserver
 sys-apps/sysvinit 2.97_p1: /sbin/init - parent of all processes
 sys-kernel/bubba-b3-kernel-bin 5.4.66: Binary kernel package for the B3 miniserver, from gentoo-sources
