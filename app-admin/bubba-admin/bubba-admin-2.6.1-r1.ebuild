@@ -105,6 +105,8 @@ RDEPEND="
 # cmake requires access to included `external` project sources
 CMAKE_IN_SOURCE_BUILD=yes
 
+S=${WORKDIR}/${PF}
+
 src_prepare() {
 	cmake-utils_src_prepare
 
