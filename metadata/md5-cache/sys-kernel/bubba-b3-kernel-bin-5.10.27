@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst postrm preinst prerm pretend
+DESCRIPTION=Binary kernel package for the B3 miniserver, from gentoo-sources
+EAPI=7
+HOMEPAGE=https://github.com/gordonb3/bubba-b3-kernel
+INHERIT=mount-boot
+KEYWORDS=~arm
+LICENSE=GPL-2
+RESTRICT=mirror strip test
+SLOT=5.10.27
+SRC_URI=https://github.com/gordonb3/bubba-b3-kernel/releases/download/5.10.27/bubba-b3-kernel-bin-5.10.27.tar.xz -> bubba-b3-kernel-bin-5.10.27.tar.xz
+_eclasses_=mount-boot	060ced4c5e0fd737db17cbb609bbf557
+_md5_=e2cddc49ffa19050474af3ea9f0c5da4
