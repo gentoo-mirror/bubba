@@ -27,7 +27,7 @@ net-misc/forked-easyfind-client 0.5: Easyfind client
 net-p2p/filetransferdaemon 0.55-r6: Excito library utils
 sys-apps/bubba-info 1.4-r1: Bubba platform information library
 sys-apps/bubba-install 1.13: Installer for Bubbagen on the Excito B3 miniserver
-sys-apps/sysvinit 2.97_p1 2.98_p1: /sbin/init - parent of all processes
+sys-apps/sysvinit 2.97_p1 2.98_p1 2.99_p1: /sbin/init - parent of all processes
 sys-kernel/bubba-b3-kernel-bin 5.4.66 5.10.27: Binary kernel package for the B3 miniserver, from gentoo-sources
 sys-kernel/gentoo-sources 4.9.49-r1 4.19.52 5.4.66: Full sources including the Gentoo patchset for the 5.4 kernel tree
 sys-power/bubba-buttond 1.4-r5: Excito B3 power control
