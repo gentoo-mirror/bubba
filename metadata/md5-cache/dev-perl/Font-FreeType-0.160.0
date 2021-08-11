@@ -1,0 +1,15 @@
+BDEPEND=dev-perl/Devel-CheckLib dev-perl/File-Which virtual/perl-ExtUtils-MakeMaker test? ( dev-perl/Test-Warn ) dev-lang/perl
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-lang/perl
+DESCRIPTION=read font files and render glyphs from Perl using FreeType2
+EAPI=7
+HOMEPAGE=https://metacpan.org/release/Font-FreeType
+INHERIT=perl-module
+IUSE=test
+KEYWORDS=~amd64 ~x86 ~x86-solaris ~arm ~ppc
+RDEPEND=media-libs/freetype dev-lang/perl:=
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DM/DMOL/Font-FreeType-0.16.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	perl-functions	fea344a91ebf37efadf172c6a3de5a72	perl-module	0ee2b2b92175720c966a5608c62b458d
+_md5_=fff0df12c6180af3880b7b3adba371cf

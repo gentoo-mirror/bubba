@@ -20,8 +20,14 @@ dev-perl/DBIx-Class:replicated - Modules required for DBIx::Class::Storage::DBI:
 media-sound/forked-daapd:itunes - Enable support for iTunes library XML
 media-sound/forked-daapd:lastfm - Enable LastFM scrobbling support
 media-sound/forked-daapd:mpd - Enable streaming to mpd
-media-sound/logitechmediaserver:alac - Add support for reading Apple Losless container format (m4a)
-media-sound/logitechmediaserver:mac - Add support for reading Monkey's Audio container format (ape)
+media-sound/logitechmediaserver:aac - Add support for transcoding MPEG-4 AAC container format (aac)
+media-sound/logitechmediaserver:alac - Add support for transcoding Apple Losless container format (m4a)
+media-sound/logitechmediaserver:flac - Add support for transcoding Monkey's Audio container format (flac)
+media-sound/logitechmediaserver:freetype - Add support for displaying non-Latin characters on old SB devices (Classic, Boom, Transporter)
+media-sound/logitechmediaserver:mac - Add support for transcoding Monkey's Audio container format (ape)
+media-sound/logitechmediaserver:mp3 - Add support for transcoding mp3 container format (mp3)
+media-sound/logitechmediaserver:ogg - Add support for transcoding Ogg Vorbis container format (ogg)
+media-sound/logitechmediaserver:wavpack - Add support for transcoding Wavpack container format (wv)
 sys-apps/sysvinit:feroceon - Add support for Excito B3 shutdown procedure
 sys-kernel/gentoo-sources:deblob - Remove binary blobs from kernel sources to provide libre license compliance.
 sys-kernel/gentoo-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".
