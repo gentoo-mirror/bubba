@@ -9,6 +9,7 @@ app-crypt/cryptodev-linux 1.6: Cryptodev-linux module
 app-misc/domoticz 2020.2.11995 2021.1.13191 9999: Home automation system
 app-misc/oikomaticz 4.10.446 9999: Home automation system
 app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
+dev-java/openjdk-bin 6.1.13.10 7.2.6.13 8.0.252: Debian precompile Java SE Development Kit
 dev-libs/openssl 1.0.2_pre150212: full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/openzwave 1.6.1044-r1 9999: free software library that interfaces with selected Z-Wave PC controllers
 dev-perl/Audio-Scan 0.930.0-r1 1.20.0: Fast C metadata and tag reader for all common audio file formats
