@@ -6,8 +6,8 @@ app-admin/bubba-admin 2.6.1-r1 2.6.1-r3: Excito B3 administration tools and GUI
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
 app-admin/bubbagen 1.14.0 1.14.5 9999.0 9999.5: The Bubba main package
 app-crypt/cryptodev-linux 1.6: Cryptodev-linux module
-app-misc/domoticz 2020.2.11995 2021.1.13191 9999: Home automation system
-app-misc/oikomaticz 4.10.448 9999: Home automation system
+app-misc/domoticz 2022.1.14127 9999: Home automation system
+app-misc/oikomaticz 4.10.453 9999: Home automation system
 app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
 dev-java/openjdk-bin 6.1.13.10 7.2.6.13 8.0.252: Debian precompile Java SE Development Kit
 dev-libs/openssl 1.0.2_pre150212: full-strength general purpose cryptography library (including SSL and TLS)
