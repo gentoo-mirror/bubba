@@ -32,7 +32,7 @@ src_install() {
 }
 
 pkg_postinst() {
-	ln -snf "${ROOT}/usr/src/linux-${PVR}-gentoo" "${ROOT}/usr/src/linux"
+	ln -snf "${ROOT}/usr/src/linux-${PV}-gentoo${REVISION}" "${ROOT}/usr/src/linux"
 }
 
 pkg_prerm() {
@@ -41,7 +41,7 @@ pkg_prerm() {
 		mount-boot_check_status
 		ebegin "Checking current running kernel version"
 		_UNAME=$(uname -r)
-		_UVERS=${_UNAME/-*/}
+		_UVERS=${_UNAME/-gentoo/}
 
 		if [[ "${_UVERS}" == "${PVR}" ]]; then
 			eend 1
@@ -63,7 +63,7 @@ pkg_prerm() {
 pkg_postrm() {
 	if [[ -z "${REPLACED_BY_VERSION}" ]]; then
 		_UNAME=$(uname -r)
-		_UVERS=${_UNAME/-*/}
+		_UVERS=${_UNAME/-gentoo/}
 		if [[ "${_UVERS}" == "${PVR}" ]]; then
 			echo ""
 			eerror "ERROR: Package manager ignored our call to die()"
