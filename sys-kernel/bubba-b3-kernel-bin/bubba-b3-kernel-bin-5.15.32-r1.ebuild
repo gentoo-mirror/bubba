@@ -15,17 +15,19 @@ S=${WORKDIR}
 
 LICENSE="GPL-2"
 KEYWORDS="~arm"
-SLOT="${PVR}"
+SLOT="${PV}"
+REVISION="-${PR}"
+REVISION=${REVISION/-r0/}
 
 RESTRICT="mirror strip test"
 
 QA_PREBUILT='*'
 
 src_install() {
-	insinto /usr/src/linux-${PVR}-gentoo
-	newins ${S}/boot/config-${PVR}-gentoo-b3 .config
-	newins ${S}/boot/Module.symvers-${PVR}-gentoo-b3 Module.symvers
-	newins ${S}/boot/System.map-${PVR}-gentoo-b3 System.map
+	insinto /usr/src/linux-${PV}-gentoo${REVISION}
+	newins ${S}/boot/config-${PV}-gentoo${REVISION}-b3 .config
+	newins ${S}/boot/Module.symvers-${PV}-gentoo${REVISION}-b3 Module.symvers
+	newins ${S}/boot/System.map-${PV}-gentoo${REVISION}-b3 System.map
 	mv * "${ED}" || die
 }
 
