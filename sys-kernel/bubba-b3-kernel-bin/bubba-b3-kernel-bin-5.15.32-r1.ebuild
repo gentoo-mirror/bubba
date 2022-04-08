@@ -42,15 +42,16 @@ pkg_prerm() {
 		ebegin "Checking current running kernel version"
 		_UNAME=$(uname -r)
 		_UVERS=${_UNAME/-gentoo/}
+		_UVERS=${_UNAME/-b3/}
 
 		if [[ "${_UVERS}" == "${PVR}" ]]; then
 			eend 1
 			# calling die() in this state appears to be ignored by emerge
 			# we therefore create a backup of the kernel and modules so we
 			# can restore it in the postrm phase
-			MODULES=$(ls -1d ${ROOT}/lib/modules/${PVR}*)
+			MODULES=$(ls -1d ${ROOT}/lib/modules/${PV}-gentoo${REVISION}-b3)
 			cp -al ${MODULES} ${ROOT}/lib/modules/_$(basename ${MODULES})
-			ls -1 ${ROOT}/boot/*${PVR}-* | while read FILE; do
+			ls -1 ${ROOT}/boot/*${PV}-gentoo${REVISION}-b3 | while read FILE; do
 				cp -al ${FILE} ${ROOT}/boot/_$(basename ${FILE})
 			done
 			cp -a ${ROOT}/var/db/pkg/sys-kernel/${PF} /tmp/${PF}.pkgdb
@@ -64,6 +65,8 @@ pkg_postrm() {
 	if [[ -z "${REPLACED_BY_VERSION}" ]]; then
 		_UNAME=$(uname -r)
 		_UVERS=${_UNAME/-gentoo/}
+		_UVERS=${_UNAME/-b3/}
+
 		if [[ "${_UVERS}" == "${PVR}" ]]; then
 			echo ""
 			eerror "ERROR: Package manager ignored our call to die()"
@@ -71,21 +74,21 @@ pkg_postrm() {
 			ewarn ""
 			ewarn "  Should you have already installed a newer kernel, please boot into"
 			ewarn "  the new kernel first before re-attempting removal of this package"
-			MODULES=$(ls -1d ${ROOT}/lib/modules/_${PVR}*)
+			MODULES=$(ls -1d ${ROOT}/lib/modules/_${PV}-gentoo${REVISION}-b3)
 			cp -al ${MODULES} $(echo ${MODULES} | sed "s/_//")
 			rm -rf ${MODULES}
-			ls -1 ${ROOT}/boot/_*${PVR}-* | while read FILE; do
+			ls -1 ${ROOT}/boot/_*${PV}-gentoo${REVISION}-b3 | while read FILE; do
 				mv ${FILE} $(echo ${FILE} | sed "s/_//")
 			done
 			sh -c "while [[ -d \"${ROOT}/var/db/pkg/sys-kernel/${PF}\" ]]; do sleep 10; done; cp -a \"/tmp/${PF}.pkgdb\" \"${ROOT}/var/db/pkg/sys-kernel/${PF}\"" &
 		fi
 	else
 		# forcibly remove the kernel's modules
-		MODULES=$(ls -1d ${ROOT}/lib/modules/${PVR}*)
+		MODULES=$(ls -1d ${ROOT}/lib/modules/${PV}-gentoo${REVISION}-b3)
 		sh -c "while [[ -d \"${ROOT}/var/db/pkg/sys-kernel/${PF}\" ]]; do sleep 10; done; rm -rf \"${MODULES}\"" &
 
 		# clean up the system source directory
-		SELVERS=$(readlink "${ROOT}/usr/src/linux" | awk -F- '{print $2}')
+		SELVERS=$(readlink "${ROOT}/usr/src/linux" | sed -e "s/^.*linux\-//" -e "s/\-gentoo//" -e "s/\-b3//")
 		if [[ "${SELVERS}" == "${PVR}" ]]; then
 			# do not leave a broken symlink behind
 			rm -f "${ROOT}/usr/src/linux"
