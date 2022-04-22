@@ -30,6 +30,3 @@ media-sound/logitechmediaserver:mp3 - Add support for transcoding mp3 container 
 media-sound/logitechmediaserver:ogg - Add support for transcoding Ogg Vorbis container format (ogg)
 media-sound/logitechmediaserver:wavpack - Add support for transcoding Wavpack container format (wv)
 sys-apps/sysvinit:feroceon - Add support for Excito B3 shutdown procedure
-sys-kernel/gentoo-sources:deblob - Remove binary blobs from kernel sources to provide libre license compliance.
-sys-kernel/gentoo-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".
-sys-kernel/gentoo-sources:kdbus - Apply the kdbus patch. This also requires the "experimental" use flag.
