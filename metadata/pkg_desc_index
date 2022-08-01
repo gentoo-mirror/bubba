@@ -2,13 +2,9 @@ acct-group/daapd 0: System group: daapd
 acct-group/logitechmediaserver 0: System group: logitechmediaserver
 acct-user/daapd 0: A user for iTunes Digital Audio Access Protocol server
 acct-user/logitechmediaserver 0: A user for Logitech Media Server
-app-admin/bubba-admin 2.6.1-r1 2.6.1-r3: Excito B3 administration tools and GUI
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
 app-admin/bubbagen 1.14.0 1.14.5 9999.0 9999.5: The Bubba main package
 app-crypt/cryptodev-linux 1.6: Cryptodev-linux module
-app-misc/domoticz 2022.1.14127 9999: Home automation system
-app-misc/oikomaticz 4.10.471 9999: Home automation system
-app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
 dev-java/openjdk-bin 6.1.13.10 7.2.6.13 8.0.252: Debian precompile Java SE Development Kit
 dev-libs/openssl 1.0.2_pre150212: full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/openzwave 1.6.1044-r1 9999: free software library that interfaces with selected Z-Wave PC controllers
@@ -23,7 +19,6 @@ media-libs/slim-faad 2.7.0_pre200908: Logitech patched AAC audio decoding librar
 media-sound/forked-daapd 26.4: A DAAP (iTunes) media server
 media-sound/logitechmediaserver 7.8.0-r3 8.0.0 8.2.0: Logitech Media Server (streaming audio server)
 net-misc/forked-easyfind-client 0.6: Easyfind client
-net-p2p/filetransferdaemon 0.55-r7: Excito library utils
 sys-apps/bubba-info 1.4-r2: Bubba platform information library
 sys-apps/bubba-install 1.13: Installer for Bubbagen on the Excito B3 miniserver
 sys-apps/sysvinit 2.99_p1: /sbin/init - parent of all processes
