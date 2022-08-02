@@ -1,7 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for JDK
-EAPI=6
-KEYWORDS=~arm ~ppc
-RDEPEND=|| ( >=dev-java/gcj-jdk-4.3 >=dev-java/cacao-0.99.2 >=dev-java/jamvm-2.0.0 =dev-java/sun-jdk-1.5.0* )
-SLOT=1.5
-_md5_=e9bffcd98257a4b083437559e2582e0c

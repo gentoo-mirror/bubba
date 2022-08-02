@@ -2,22 +2,21 @@ acct-group/daapd 0: System group: daapd
 acct-group/logitechmediaserver 0: System group: logitechmediaserver
 acct-user/daapd 0: A user for iTunes Digital Audio Access Protocol server
 acct-user/logitechmediaserver 0: A user for Logitech Media Server
+app-admin/bubba-admin 2.6.1-r3: Excito B3 administration tools and GUI
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
 app-admin/bubbagen 1.14.0 1.14.5 9999.0 9999.5: The Bubba main package
-app-crypt/cryptodev-linux 1.6: Cryptodev-linux module
-dev-java/openjdk-bin 6.1.13.10 7.2.6.13 8.0.252: Debian precompile Java SE Development Kit
-dev-libs/openssl 1.0.2_pre150212: full-strength general purpose cryptography library (including SSL and TLS)
+dev-java/openjdk-bin 8.0.252: Debian precompile Java SE Development Kit
 dev-libs/openzwave 1.6.1044-r1 9999: free software library that interfaces with selected Z-Wave PC controllers
-dev-perl/Audio-Scan 0.930.0-r1 1.20.0: Fast C metadata and tag reader for all common audio file formats
+dev-perl/Audio-Scan 1.20.0: Fast C metadata and tag reader for all common audio file formats
 dev-perl/Font-FreeType 0.160.0: read font files and render glyphs from Perl using FreeType2
 dev-perl/Locale-Hebrew 1.50.0: bidirectional Hebrew support for Perl
 dev-perl/MP3-Cut-Gapless 0.30: Port of pcutmp3 to Perl with improvements
-mail-client/bubba-roundcube 1.3.6 1.3.6-r1: A browser-based multilingual IMAP client with an application-like user interface
+mail-client/bubba-roundcube 1.3.6-r1: A browser-based multilingual IMAP client with an application-like user interface
 mail-filter/assp 1.10.1.16065: Anti-Spam SMTP Proxy written in Perl
 media-gfx/singapore 0.10.1_pre160712: Singapore Image Gallery
 media-libs/slim-faad 2.7.0_pre200908: Logitech patched AAC audio decoding library
 media-sound/forked-daapd 26.4: A DAAP (iTunes) media server
-media-sound/logitechmediaserver 7.8.0-r3 8.0.0 8.2.0: Logitech Media Server (streaming audio server)
+media-sound/logitechmediaserver 8.0.0 8.2.0: Logitech Media Server (streaming audio server)
 net-misc/forked-easyfind-client 0.6: Easyfind client
 sys-apps/bubba-info 1.4-r2: Bubba platform information library
 sys-apps/bubba-install 1.13: Installer for Bubbagen on the Excito B3 miniserver
@@ -25,6 +24,5 @@ sys-apps/sysvinit 2.99_p1: /sbin/init - parent of all processes
 sys-kernel/bubba-b3-kernel-bin 5.4.66 5.10.27 5.15.32-r1 5.15.41: Binary kernel package for the B3 miniserver, from gentoo-sources
 sys-power/bubba-buttond 1.4-r5: Excito B3 power control
 virtual/bubba 1.14 9999: Virtual for Bubba Version
-virtual/jdk 1.5.0-r3 1.6.0 1.7.0-r99 1.8.0-r99: Virtual for Java Development Kit (JDK)
-virtual/jre 1.7.0-r2: Virtual for Java Runtime Environment (JRE)
+virtual/jdk 1.8.0-r99: Virtual for Java Development Kit (JDK)
 www-apps/codeigniter-bin 2.2.2: CodeIgniter PHP framework for full-featured web applications
