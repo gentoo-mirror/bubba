@@ -11,9 +11,11 @@ app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
 dev-java/openjdk-bin 8.0.252: Debian precompile Java SE Development Kit
 dev-libs/openzwave 1.6.1044-r1 9999: free software library that interfaces with selected Z-Wave PC controllers
 dev-perl/Audio-Scan 1.20.0: Fast C metadata and tag reader for all common audio file formats
+dev-perl/DBIx-Class 0.82.700: Extensible and flexible object <-> relational mapper
 dev-perl/Font-FreeType 0.160.0: read font files and render glyphs from Perl using FreeType2
 dev-perl/Locale-Hebrew 1.50.0: bidirectional Hebrew support for Perl
 dev-perl/MP3-Cut-Gapless 0.30: Port of pcutmp3 to Perl with improvements
+dev-perl/SQL-Abstract 1.780.0: Generate SQL from Perl data structures
 mail-client/bubba-roundcube 1.3.6-r1: A browser-based multilingual IMAP client with an application-like user interface
 mail-filter/assp 1.10.1.16065: Anti-Spam SMTP Proxy written in Perl
 media-gfx/singapore 0.10.1_pre160712: Singapore Image Gallery

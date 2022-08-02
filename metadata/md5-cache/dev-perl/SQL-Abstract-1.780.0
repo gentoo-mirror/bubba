@@ -1,0 +1,15 @@
+BDEPEND=dev-lang/perl
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=>=dev-perl/Class-Accessor-Grouped-0.100.50 >=dev-perl/Getopt-Long-Descriptive-0.91.0 dev-perl/Hash-Merge dev-perl/Moo dev-perl/Module-Install test? ( >=dev-perl/Test-Deep-0.106 dev-perl/Test-Exception dev-perl/Test-Pod >=virtual/perl-Test-Simple-0.92 dev-perl/Test-Warn >=dev-perl/Clone-0.31 ) dev-lang/perl
+DESCRIPTION=Generate SQL from Perl data structures
+EAPI=7
+HOMEPAGE=https://metacpan.org/release/SQL-Abstract
+INHERIT=perl-module
+IUSE=test
+KEYWORDS=amd64 ~ppc x86 ~ppc-aix ~ppc-macos ~x86-solaris ~arm
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=>=dev-perl/Class-Accessor-Grouped-0.100.50 >=dev-perl/Getopt-Long-Descriptive-0.91.0 dev-perl/Hash-Merge dev-perl/Moo dev-lang/perl:=
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RI/RIBASUSHI/SQL-Abstract-1.78.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	perl-functions	c3fca037246e877693badea0df3b0ef8	perl-module	4f80b00fab088c2f6d68edb55a6c4bf4
+_md5_=870eedac3b70838b35ed4a6d93b46271

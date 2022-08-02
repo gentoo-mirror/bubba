@@ -1,11 +1,11 @@
 DEFINED_PHASES=install postinst postrm preinst
 DEPEND=virtual/bubba
 DESCRIPTION=Installer for Bubbagen on the Excito B3 miniserver
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/gordonb3/bubbagen
 IUSE=liveusb sysinit minimal
 KEYWORDS=~arm
 LICENSE=GPL-3+
 RDEPEND=virtual/bubba
 SLOT=0
-_md5_=60bcbe123cf461a8e264bcd7482a1e24
+_md5_=e3c92ed33eb6a2ace55b81f467bd635a
