@@ -3,7 +3,6 @@ DEPEND=!sys-apps/b3-init-scripts >=virtual/udev-215 >=sys-apps/ethtool-3.12.1 !v
 DESCRIPTION=The Bubba main package
 EAPI=7
 HOMEPAGE=https://github.com/gordonb3/bubbagen
-INHERIT=eutils
 IUSE=bindist
 KEYWORDS=~arm ~ppc
 LICENSE=GPL-3+
@@ -11,5 +10,4 @@ RDEPEND=!sys-apps/b3-init-scripts >=virtual/udev-215 >=sys-apps/ethtool-3.12.1 !
 RESTRICT=mirror
 SLOT=0/1.14
 SRC_URI=https://github.com/gordonb3/bubbagen/archive/v1.14.tar.gz -> bubbagen-1.14.0.tgz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32
-_md5_=4c633891bcbfab83d58d38375f8dde0e
+_md5_=e5f15a6dfddcf88287e0a87c1fd2a4b5
