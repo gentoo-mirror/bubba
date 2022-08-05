@@ -5,11 +5,11 @@ DESCRIPTION=Logitech Media Server (streaming audio server)
 EAPI=7
 HOMEPAGE=http://www.mysqueezebox.com/
 INHERIT=user systemd
-IUSE=systemd mp3 alac wavpack flac ogg aac mac freetype l10n_he
+IUSE=systemd mp3 alac wavpack flac ogg aac mac freetype dlna l10n_he
 LICENSE=logitechmediaserver
-RDEPEND=virtual/logger dev-db/sqlite >=dev-lang/perl-5.8.8[ithreads] >=dev-perl/Data-UUID-1.202 >=dev-perl/Audio-Scan-1.20.0 >=dev-perl/Class-XSAccessor-1.180.0 dev-perl/CGI dev-perl/Class-C3-XS dev-perl/DBD-SQLite dev-perl/DBI dev-perl/Digest-SHA1 dev-perl/Encode-Detect dev-perl/EV dev-perl/HTML-Parser dev-perl/Image-Scale[gif,jpeg,png] dev-perl/IO-AIO dev-perl/IO-Interface dev-perl/JSON-XS dev-perl/Linux-Inotify2 dev-perl/Sub-Name dev-perl/Template-Toolkit[gd] dev-perl/XML-Parser dev-perl/YAML-LibYAML dev-perl/MP3-Cut-Gapless l10n_he? ( dev-perl/Locale-Hebrew ) mp3? ( media-sound/lame ) wavpack? ( media-sound/wavpack ) flac? ( media-libs/flac media-sound/sox[flac] ) ogg? ( media-sound/sox[ogg] ) aac? ( media-libs/slim-faad ) alac? ( media-libs/slim-faad ) mac? ( media-sound/mac ) freetype? ( dev-perl/Font-FreeType )
+RDEPEND=virtual/logger dev-db/sqlite >=dev-lang/perl-5.8.8[ithreads] >=dev-perl/Data-UUID-1.202 >=dev-perl/Audio-Scan-1.20.0 >=dev-perl/Class-XSAccessor-1.180.0 dev-perl/CGI dev-perl/Class-C3-XS dev-perl/DBD-SQLite dev-perl/DBI dev-perl/Digest-SHA1 dev-perl/Encode-Detect dev-perl/EV dev-perl/HTML-Parser dev-perl/Image-Scale[gif,jpeg,png] dev-perl/IO-AIO dev-perl/IO-Interface dev-perl/JSON-XS dev-perl/Linux-Inotify2 dev-perl/Sub-Name dev-perl/Template-Toolkit[gd] dev-perl/XML-Parser dev-perl/YAML-LibYAML dev-perl/MP3-Cut-Gapless l10n_he? ( dev-perl/Locale-Hebrew ) mp3? ( media-sound/lame ) wavpack? ( media-sound/wavpack ) flac? ( media-libs/flac media-sound/sox[flac] ) ogg? ( media-sound/sox[ogg] ) aac? ( media-libs/slim-faad ) alac? ( media-libs/slim-faad ) mac? ( media-sound/mac ) freetype? ( dev-perl/Font-FreeType ) dlna? ( dev-perl/Media-Scan )
 RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=http://downloads.slimdevices.com/LogitechMediaServer_v8.2.0/logitechmediaserver-8.2.0-noCPAN.tgz
 _eclasses_=user-info	69a1ed744ec33cf2c910ff2bd6084d11	user	1f6dd43c7e925ba0272de52bcd326972	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	2736b403a83f194b59b767f3b344c2c1
-_md5_=3b2c9efbb0f723c893d38aa330144e29
+_md5_=87961cdadd19b34d9bdd4c41b2167706

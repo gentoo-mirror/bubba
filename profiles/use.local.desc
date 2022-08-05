@@ -19,6 +19,7 @@ media-sound/forked-daapd:lastfm - Enable LastFM scrobbling support
 media-sound/forked-daapd:mpd - Enable streaming to mpd
 media-sound/logitechmediaserver:aac - Add support for transcoding MPEG-4 AAC container format (aac)
 media-sound/logitechmediaserver:alac - Add support for transcoding Apple Losless container format (m4a)
+media-sound/logitechmediaserver:dlna - Add DLNA server support
 media-sound/logitechmediaserver:flac - Add support for transcoding Monkey's Audio container format (flac)
 media-sound/logitechmediaserver:freetype - Add support for displaying non-Latin characters on old SB devices (Classic, Boom, Transporter)
 media-sound/logitechmediaserver:mac - Add support for transcoding Monkey's Audio container format (ape)
