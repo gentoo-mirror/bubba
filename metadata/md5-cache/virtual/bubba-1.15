@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Bubba Version
+EAPI=7
+IUSE=systemd
+KEYWORDS=~arm ~ppc
+RDEPEND=!systemd? ( app-admin/bubbagen:0/1.15 ) systemd? ( app-admin/bubbagen:0/1.15.5 )
+SLOT=0/1.15
+_md5_=c745221bb218e9d0fe53b42e7630c98a
