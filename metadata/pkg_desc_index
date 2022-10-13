@@ -6,7 +6,7 @@ app-admin/bubba-admin 2.6.1-r3: Excito B3 administration tools and GUI
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
 app-admin/bubbagen 1.15.0 1.15.5 9999.0 9999.5: The Bubba main package
 app-misc/domoticz 2022.1.14127 9999: Home automation system
-app-misc/oikomaticz 4.10.477 9999: Home automation system
+app-misc/oikomaticz 4.10.478 9999: Home automation system
 app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
 dev-java/openjdk-bin 8.0.252: Debian precompile Java SE Development Kit
 dev-libs/openzwave 1.6.1044-r1 9999: free software library that interfaces with selected Z-Wave PC controllers
