@@ -26,7 +26,4 @@ media-sound/logitechmediaserver:mac - Add support for transcoding Monkey's Audio
 media-sound/logitechmediaserver:mp3 - Add support for transcoding mp3 container format (mp3)
 media-sound/logitechmediaserver:ogg - Add support for transcoding Ogg Vorbis container format (ogg)
 media-sound/logitechmediaserver:wavpack - Add support for transcoding Wavpack container format (wv)
-net-nntp/sabnzbd:7za - Add support for extracting 7za files
-net-nntp/sabnzbd:rar - Add support for extracting rar files
-net-nntp/sabnzbd:unzip - Add support for extracting zip files
 sys-apps/sysvinit:feroceon - Add support for Excito B3 shutdown procedure
