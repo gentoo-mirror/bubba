@@ -8,4 +8,4 @@ LICENSE=GPL-3
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tamlyn/singapore/archive/8524ace0fcae7e144aea803ad0261c31b97b3033.zip -> singapore-0.10.1.zip
-_md5_=5fdfaf3b8a29252360c05e24c5c41f9e
+_md5_=7fae81edb2a93e49a3f4cdcb66b3e232
