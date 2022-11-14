@@ -1,0 +1,54 @@
+diff -ru a/Scan.xs b/Scan.xs
+--- a/Scan.xs	2018-07-10 05:07:55.000000000 +0200
++++ b/Scan.xs	2022-11-14 09:53:57.871306940 +0100
+@@ -205,7 +205,7 @@
+ #endif
+ 
+   memset(hashstr, 0, sizeof(hashstr));
+-  snprintf(hashstr, sizeof(hashstr) - 1, "%s%d%llu", file, mtime, size);
++  snprintf(hashstr, sizeof(hashstr) - 1, "%s%d%lu", file, mtime, size);
+   hash = hashlittle(hashstr, strlen(hashstr), 0);
+   
+   return hash;
+diff -ru a/src/asf.c b/src/asf.c
+--- a/src/asf.c	2017-10-04 20:01:50.000000000 +0200
++++ b/src/asf.c	2022-11-14 09:53:04.612250303 +0100
+@@ -184,7 +184,7 @@
+       // Unhandled GUID
+       PerlIO_printf(PerlIO_stderr(), "** Unhandled GUID: ");
+       print_guid(tmp.ID);
+-      PerlIO_printf(PerlIO_stderr(), "size: %llu\n", tmp.size);
++      PerlIO_printf(PerlIO_stderr(), "size: %lu\n", tmp.size);
+ 
+       buffer_consume(asf->buf, tmp.size - 24);
+     }
+@@ -699,7 +699,7 @@
+       // Unhandled
+       PerlIO_printf(PerlIO_stderr(), "  ** Unhandled extended header: ");
+       print_guid(hdr);
+-      PerlIO_printf(PerlIO_stderr(), "size: %llu\n", hdr_size);
++      PerlIO_printf(PerlIO_stderr(), "size: %lu\n", hdr_size);
+ 
+       buffer_consume(asf->buf, hdr_size - 24);
+     }
+@@ -1271,7 +1271,7 @@
+       // Unhandled GUID
+       PerlIO_printf(PerlIO_stderr(), "** Unhandled Index GUID: ");
+       print_guid(tmp);
+-      PerlIO_printf(PerlIO_stderr(), "size: %llu\n", size);
++      PerlIO_printf(PerlIO_stderr(), "size: %lu\n", size);
+ 
+       buffer_consume(asf->buf, size - 24);
+     }
+diff -ru a/src/mp4.c b/src/mp4.c
+--- a/src/mp4.c	2022-11-14 09:46:40.116606307 +0100
++++ b/src/mp4.c	2022-11-14 09:53:35.976872611 +0100
+@@ -255,7 +255,7 @@
+   }
+ 
+   if (file_offset > mp4->audio_offset + mp4->audio_size) {
+-    PerlIO_printf(PerlIO_stderr(), "find_frame: file offset out of range (%d > %lld)\n", file_offset, mp4->audio_offset + mp4->audio_size);
++    PerlIO_printf(PerlIO_stderr(), "find_frame: file offset out of range (%d > %lu)\n", file_offset, mp4->audio_offset + mp4->audio_size);
+     ret = -1;
+     goto out;
+   }
