@@ -13,4 +13,4 @@ RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=http://downloads.slimdevices.com/LogitechMediaServer_v8.2.0/logitechmediaserver-8.2.0-noCPAN.tgz
 _eclasses_=user-info	69a1ed744ec33cf2c910ff2bd6084d11	user	ee8b59cbe68b390f981e3ee247ed908f	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
-_md5_=8a6e4ef5395bb61d88b0f45e39f7aad1
+_md5_=3762be4bf53c030a778385c9db349d1c
