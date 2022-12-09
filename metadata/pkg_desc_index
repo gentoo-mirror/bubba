@@ -1,5 +1,7 @@
+acct-group/assp 0: System group: assp
 acct-group/daapd 0: System group: daapd
 acct-group/logitechmediaserver 0: System group: logitechmediaserver
+acct-user/assp 0: A user for Anti Spam SMTP Proxy server
 acct-user/daapd 0: A user for iTunes Digital Audio Access Protocol server
 acct-user/logitechmediaserver 0: A user for Logitech Media Server
 app-admin/bubba-admin 2.6.1-r3: Excito B3 administration tools and GUI
@@ -16,8 +18,11 @@ dev-perl/Locale-Hebrew 1.50.0: bidirectional Hebrew support for Perl
 dev-perl/MP3-Cut-Gapless 0.30.0: Port of pcutmp3 to Perl with improvements
 dev-perl/Media-Scan 0.1.0: DLNA server support for LogitechMediaServer
 mail-client/bubba-roundcube 1.3.6-r1: A browser-based multilingual IMAP client with an application-like user interface
+mail-filter/assp 1.10.1.16065: Anti-Spam SMTP Proxy written in Perl
 media-gfx/singapore 0.10.1_pre221101: Singapore Image Gallery
 media-libs/slim-faad 2.7.0_pre200908: Logitech patched AAC audio decoding library
+media-sound/forked-daapd 26.4: A DAAP (iTunes) media server
+media-sound/logitechmediaserver 8.0.0 8.2.0 8.3.0: Logitech Media Server (streaming audio server)
 net-misc/forked-easyfind-client 0.6: Easyfind client
 net-p2p/filetransferdaemon 0.55-r7: Excito library utils
 sys-apps/bubba-info 1.4-r2: Bubba platform information library
@@ -27,3 +32,4 @@ sys-kernel/bubba-b3-kernel-bin 5.4.66 5.10.27 5.15.32-r1 5.15.41: Binary kernel 
 sys-power/bubba-buttond 1.4-r5: Excito B3 power control
 virtual/bubba 1.14 1.15 9999: Virtual for Bubba Version
 virtual/jdk 1.8.0-r99: Virtual for Java Development Kit (JDK)
+www-apps/codeigniter-bin 2.2.2: CodeIgniter PHP framework for full-featured web applications
