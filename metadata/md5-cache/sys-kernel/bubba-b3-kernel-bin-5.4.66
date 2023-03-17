@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RESTRICT=mirror strip test
 SLOT=5.4.66
 SRC_URI=https://github.com/gordonb3/bubba-b3-kernel/releases/download/5.4.66/bubba-b3-kernel-bin-5.4.66.tar.xz -> bubba-b3-kernel-bin-5.4.66.tar.xz
-_eclasses_=mount-boot	02a45c5e022c08dbc05178522b2772f2
+_eclasses_=mount-boot	3945d351ee3192381911f938f4ee527a
 _md5_=e2cddc49ffa19050474af3ea9f0c5da4
