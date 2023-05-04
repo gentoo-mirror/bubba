@@ -4,9 +4,9 @@ acct-group/logitechmediaserver 0: System group: logitechmediaserver
 acct-user/assp 0: A user for Anti Spam SMTP Proxy server
 acct-user/daapd 0: A user for iTunes Digital Audio Access Protocol server
 acct-user/logitechmediaserver 0: A user for Logitech Media Server
-app-admin/bubba-admin 2.6.1-r3: Excito B3 administration tools and GUI
+app-admin/bubba-admin 2.6.1-r3 2.6.2: Excito B3 administration tools and GUI
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
-app-admin/bubbagen 1.15.0 1.15.5 9999.0 9999.5: The Bubba main package
+app-admin/bubbagen 1.15.0 1.15.5 1.16.0 1.16.5 9999.0 9999.5: The Bubba main package
 app-misc/domoticz 2023.1 9999: Home automation system
 app-misc/oikomaticz 4.10.485 9999: Home automation system
 app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
