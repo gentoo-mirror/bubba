@@ -30,6 +30,6 @@ sys-apps/bubba-install 1.13: Installer for Bubbagen on the Excito B3 miniserver
 sys-apps/sysvinit 2.99_p1: /sbin/init - parent of all processes
 sys-kernel/bubba-b3-kernel-bin 5.15.41 6.1.12: Binary kernel package for the B3 miniserver, from gentoo-sources
 sys-power/bubba-buttond 1.4-r5: Excito B3 power control
-virtual/bubba 1.14 1.15 9999: Virtual for Bubba Version
+virtual/bubba 1.15 1.16 9999: Virtual for Bubba Version
 virtual/jdk 1.8.0-r99: Virtual for Java Development Kit (JDK)
 www-apps/codeigniter-bin 2.2.2: CodeIgniter PHP framework for full-featured web applications
