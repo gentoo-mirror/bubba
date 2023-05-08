@@ -291,7 +291,7 @@ copy_system() {
 		chmod -x ${TARGETBOOT}/{config*,System.map*,firmware/*} >>"${LOG}" 2>&1
 
 		# make sure that we configure for the right init system
-		if [ ! -z $(ls -d ${SOURCEROOT}/var/db/pkg/sys-apps/systemd* 2>/dev/null) ]; then
+		if [ ! -z $(ls -d ${SOURCEROOT}/var/db/pkg/sys-apps/systemd-[0-9]* 2>/dev/null) ]; then
 			# systemd init
 			if ( ! grep -q "^\s*INIT=" ${TARGETBOOT}/boot.ini ); then
 				if ( grep -q "^\s*#\s*INIT=" ${TARGETBOOT}/boot.ini ); then
