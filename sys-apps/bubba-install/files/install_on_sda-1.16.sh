@@ -30,6 +30,10 @@
 #  - allow installer to run from a different mountpoint than /
 #  - installer may now also be used to replace the current running system
 #
+# May 2023 - gordonb3 <gordon@bosvangennip.nl>
+#  - injection of systemd derived methods in openrc caused installer to
+#       configure boot.ini for systemd always. 
+#
 
 declare -r LOG=/var/log/gentoo_install.log
 declare -r TARGETDEV=sda
