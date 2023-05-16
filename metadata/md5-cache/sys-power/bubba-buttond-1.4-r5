@@ -1,5 +1,5 @@
 BDEPEND=virtual/pkgconfig
-DEFINED_PHASES=compile install postinst prerm setup
+DEFINED_PHASES=compile install postinst prerm setup unpack
 DESCRIPTION=Excito B3 power control
 EAPI=7
 HOMEPAGE=http://www.excito.com/
@@ -10,6 +10,6 @@ LICENSE=GPL-3
 RDEPEND=systemd? ( sys-apps/systemd )
 RESTRICT=mirror
 SLOT=0
-SRC_URI=http://b3.update.excito.org/pool/main/b/bubba-buttond/bubba-buttond_1.4.tar.gz
+SRC_URI=https://github.com/excito/bubba-buttond/archive/8e6b241.tar.gz -> bubba-buttond-1.4-r5.tar.gz
 _eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	systemd	5f4bb0758df2e483babf68cd517078ca
-_md5_=03aa09132acb34b95a19fc20ca4706f4
+_md5_=ee908ef199b226af8fb042964426ca1d
