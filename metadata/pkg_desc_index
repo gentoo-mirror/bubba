@@ -24,7 +24,7 @@ media-libs/slim-faad 2.7.0_pre200908: Logitech patched AAC audio decoding librar
 media-sound/forked-daapd 26.4: A DAAP (iTunes) media server
 media-sound/logitechmediaserver 8.2.1_pre20220904 8.3.0 8.3.1: Logitech Media Server (streaming audio server)
 net-misc/forked-easyfind-client 0.6: Easyfind client
-net-p2p/filetransferdaemon 0.55-r7: Excito library utils
+net-p2p/filetransferdaemon 0.55-r7: Excito File Transfer Daemon
 sys-apps/bubba-info 1.4-r2: Bubba platform information library
 sys-apps/bubba-install 1.16: Installer for Bubbagen on the Excito B3 miniserver
 sys-apps/sysvinit 2.99_p1: /sbin/init - parent of all processes
