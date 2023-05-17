@@ -6,5 +6,5 @@ KEYWORDS=~arm
 LICENSE=GPL-3
 RESTRICT=mirror
 SLOT=0
-SRC_URI=http://b3.update.excito.org/pool/main/b/bubba-manual/bubba-manual_2.3~rc3.tar.gz
-_md5_=fa79fc1ed88f9c9ed132fe86fafb4371
+SRC_URI=https://github.com/gordonb3/bubba-manual/archive/2.3_rc3.tar.gz
+_md5_=a6b4da45b2df55c1d8dd15a77a259f0c
