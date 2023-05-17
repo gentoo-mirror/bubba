@@ -8,7 +8,7 @@ inherit cmake systemd tmpfiles
 
 DESCRIPTION="Excito B3 administration tools and GUI"
 HOMEPAGE="http://www.excito.com/"
-SRC_URI="https://github.com/gordonb3/${PN}/archive/${PVR}.tar.gz -> ${PF}.tar.gz"
+SRC_URI="https://github.com/gordonb3/${PN}/archive/${PV}.tar.gz -> ${PN}-${PV}.tar.gz"
 
 RESTRICT="mirror"
 LICENSE="GPL-3"
@@ -19,6 +19,11 @@ IUSE="+apache2 nginx systemd +iptables nftables +wifi debug"
 REQUIRED_USE="^^ ( apache2 nginx )
 	?? ( iptables nftables )
 "
+
+PATCHES=(
+	"${FILESDIR}/libeutils-0.7.39.patch"
+)
+
 
 COMMON_DEPEND="
 	dev-lang/perl:=
@@ -109,7 +114,6 @@ S=${WORKDIR}/${PF}
 
 src_prepare() {
 	eapply_user
-	cmake_src_prepare
 
 	# add gentoo logo to the web GUI
 	eapply ${S}/contrib/gentoo/gentoo-logo.patch
@@ -144,6 +148,8 @@ src_prepare() {
 	if use debug; then
 		sed  -e "s/^\(define('ENVIRONMENT', '\).*\(');\)$/\1development\2/" -i bubba-frontend/admin/index.php
 	fi
+	
+	cmake_src_prepare
 }
 
 src_configure() {
