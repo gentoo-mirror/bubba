@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=net-misc/curl dev-libs/libusb dev-libs/libusb-compat dev-embedded/libftdi dev-db/sqlite dev-libs/boost sys-libs/zlib[minizip] !internal-lua? ( dev-lang/lua:5.2 ) app-misc/mosquitto dev-db/sqlite telldus? ( app-misc/telldus-core ) openzwave? ( dev-libs/openzwave ) python? ( dev-lang/python ) dev-libs/openssl dev-libs/cereal dev-libs/jsoncpp
 SLOT=0
 SRC_URI=internal-lua? ( http://www.lua.org/ftp/lua-5.3.6.tar.gz )
-_eclasses_=toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	aa1d1fa7be37663d48162ac963b22692	git-r3	97f7f638070d17e4c2b6542589bb4575	systemd	5f4bb0758df2e483babf68cd517078ca
+_eclasses_=toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	aa1d1fa7be37663d48162ac963b22692	git-r3	2358a7b20091609e24bd3a83b3ac5991	systemd	5f4bb0758df2e483babf68cd517078ca
 _md5_=53f4e41e0a8fee7ea32311783dd57ce7
