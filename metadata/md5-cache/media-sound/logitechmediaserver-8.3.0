@@ -11,5 +11,5 @@ RDEPEND=virtual/logger dev-db/sqlite >=dev-lang/perl-5.8.8[ithreads] >=dev-perl/
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://downloads.slimdevices.com/LogitechMediaServer_v8.3.0/logitechmediaserver-8.3.0-noCPAN.tgz
-_eclasses_=toolchain-funcs	e356bb9aa600fd4b0dc539d33513bba7	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	5f4bb0758df2e483babf68cd517078ca
+_eclasses_=toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	5f4bb0758df2e483babf68cd517078ca
 _md5_=5eca449d0ffc26bec2ca8585d1eb6afc
