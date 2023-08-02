@@ -8,7 +8,7 @@ app-admin/bubba-admin 2.6.2-r1: Excito B3 administration tools and GUI
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
 app-admin/bubbagen 1.15.0 1.15.5 1.16.0 1.16.5 9999.0 9999.5: The Bubba main package
 app-misc/domoticz 2023.2 9999: Home automation system
-app-misc/oikomaticz 4.10.485 9999: Home automation system
+app-misc/oikomaticz 4.10.487 9999: Home automation system
 app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
 dev-java/openjdk-bin 8.0.252: Debian precompile Java SE Development Kit
 dev-libs/openzwave 1.6.1044-r1 9999: free software library that interfaces with selected Z-Wave PC controllers
@@ -24,6 +24,7 @@ media-libs/slim-faad 2.7.0_pre200908: Logitech patched AAC audio decoding librar
 media-sound/forked-daapd 26.4: A DAAP (iTunes) media server
 media-sound/logitechmediaserver 8.2.1_pre20220904 8.3.0 8.3.1: Logitech Media Server (streaming audio server)
 net-misc/forked-easyfind-client 0.6: Easyfind client
+net-misc/wsdd 0.7.1: A Web Service Discovery host daemon.
 net-p2p/filetransferdaemon 0.55-r7: Excito File Transfer Daemon
 sys-apps/bubba-info 1.4-r2: Bubba platform information library
 sys-apps/bubba-install 1.16: Installer for Bubbagen on the Excito B3 miniserver
