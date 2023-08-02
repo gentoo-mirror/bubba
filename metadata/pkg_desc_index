@@ -1,9 +1,11 @@
 acct-group/assp 0: System group: assp
 acct-group/daapd 0: System group: daapd
 acct-group/logitechmediaserver 0: System group: logitechmediaserver
+acct-group/wsdd 0: Group for net-misc/wsdd
 acct-user/assp 0: A user for Anti Spam SMTP Proxy server
 acct-user/daapd 0: A user for iTunes Digital Audio Access Protocol server
 acct-user/logitechmediaserver 0: A user for Logitech Media Server
+acct-user/wsdd 0: User for net-misc/wsdd
 app-admin/bubba-admin 2.6.2-r1: Excito B3 administration tools and GUI
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
 app-admin/bubbagen 1.15.0 1.15.5 1.16.0 1.16.5 9999.0 9999.5: The Bubba main package
