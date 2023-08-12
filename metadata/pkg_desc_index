@@ -31,7 +31,7 @@ net-p2p/filetransferdaemon 0.55-r7: Excito File Transfer Daemon
 sys-apps/bubba-info 1.4-r2: Bubba platform information library
 sys-apps/bubba-install 1.16: Installer for Bubbagen on the Excito B3 miniserver
 sys-apps/sysvinit 2.99_p1: /sbin/init - parent of all processes
-sys-kernel/bubba-b3-kernel-bin 5.15.41 6.1.12: Binary kernel package for the B3 miniserver, from gentoo-sources
+sys-kernel/bubba-b3-kernel-bin 6.1.41: Binary kernel package for the B3 miniserver, from gentoo-sources
 sys-power/bubba-buttond 1.4-r5: Excito B3 power control
 virtual/bubba 1.15 1.16 9999: Virtual for Bubba Version
 virtual/jdk 1.8.0-r99: Virtual for Java Development Kit (JDK)
