@@ -11,5 +11,5 @@ RDEPEND=>=dev-libs/glib-2.42:2 >=dev-libs/nss-3.16.1-r1 >=dev-libs/nspr-4.10 >=g
 RESTRICT=preserve-libs strip mirror
 SLOT=8
 SRC_URI=http://ftp.nl.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u252-b09-1~deb9u1_armel.deb http://ftp.nl.debian.org/debian/pool/main/o/openjdk-8/openjdk-8-jdk-headless_8u252-b09-1~deb9u1_armel.deb
-_eclasses_=multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	pax-utils	91d47e5d20627c717aa878b9167c62a8	prefix	eab3c99d77fe00506c109c8a736186f7	xdg-utils	baea6080dd821f5562d715887954c9d3	java-vm-2	7e65068a6d9ed9e71f6f4d3cb722e2fa
+_eclasses_=multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	pax-utils	91d47e5d20627c717aa878b9167c62a8	prefix	eab3c99d77fe00506c109c8a736186f7	xdg-utils	baea6080dd821f5562d715887954c9d3	java-vm-2	7e65068a6d9ed9e71f6f4d3cb722e2fa
 _md5_=50fd49281c8cfdc322e2ca3aafd514b4
