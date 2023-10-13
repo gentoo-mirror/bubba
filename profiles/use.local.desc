@@ -4,7 +4,6 @@
 
 app-misc/domoticz:i2c - Add support for Inter-Integrated Circuit (e.g. on Raspberry Pi)
 app-misc/domoticz:internal-lua - Integrate preferred version of Lua
-app-misc/domoticz:openzwave - Add support for OpenZWave
 app-misc/domoticz:spi - Add support for Serial Peripheral Interface
 app-misc/domoticz:telldus - Add support for Telldus stick
 app-misc/oikomaticz:i2c - Add support for Inter-Integrated Circuit (e.g. on Raspberry Pi)

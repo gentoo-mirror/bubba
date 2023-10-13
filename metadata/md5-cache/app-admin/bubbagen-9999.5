@@ -1,6 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare setup unpack
-DEPEND=!sys-apps/b3-init-scripts >=virtual/udev-215 >=sys-apps/ethtool-3.12.1 !virtual/bubba:0/0
+DEPEND=!sys-apps/b3-init-scripts >=virtual/udev-215 >=sys-apps/ethtool-3.12.1
 DESCRIPTION=The Bubba main package
 EAPI=7
 HOMEPAGE=https://github.com/gordonb3/bubbagen
@@ -9,9 +9,9 @@ IUSE=systemd bindist
 KEYWORDS=~arm ~ppc
 LICENSE=GPL-3+
 PROPERTIES=live
-RDEPEND=!sys-apps/b3-init-scripts >=virtual/udev-215 >=sys-apps/ethtool-3.12.1 !virtual/bubba:0/0 app-admin/bubba-admin[systemd] app-admin/bubba-manual arm? ( sys-power/bubba-buttond[systemd] ) sys-apps/systemd
+RDEPEND=!sys-apps/b3-init-scripts >=virtual/udev-215 >=sys-apps/ethtool-3.12.1 app-admin/bubba-admin[systemd] app-admin/bubba-manual arm? ( sys-power/bubba-buttond[systemd] ) sys-apps/systemd
 REQUIRED_USE=systemd
 RESTRICT=mirror
 SLOT=0/9999.5
 _eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
-_md5_=3517d1676b6ddf5598f7a4c9c27e5d07
+_md5_=39cbc64b5d0c67404269bf0138d52996

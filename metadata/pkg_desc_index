@@ -8,9 +8,9 @@ acct-user/logitechmediaserver 0: A user for Logitech Media Server
 acct-user/wsdd 0: User for net-misc/wsdd
 app-admin/bubba-admin 2.6.2-r1: Excito B3 administration tools and GUI
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
-app-admin/bubbagen 1.15.0 1.15.5 1.16.0 1.16.5 9999.0 9999.5: The Bubba main package
+app-admin/bubbagen 1.16.0 1.16.5 9999.0 9999.5: The Bubba main package
 app-misc/domoticz 2023.2 9999: Home automation system
-app-misc/oikomaticz 4.10.487 9999: Home automation system
+app-misc/oikomaticz 4.10.488 9999: Home automation system
 app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
 dev-java/openjdk-bin 8.0.252: Debian precompile Java SE Development Kit
 dev-libs/openzwave 1.6.1044-r1 9999: free software library that interfaces with selected Z-Wave PC controllers
@@ -33,6 +33,6 @@ sys-apps/bubba-install 1.16: Installer for Bubbagen on the Excito B3 miniserver
 sys-apps/sysvinit 2.99_p1: /sbin/init - parent of all processes
 sys-kernel/bubba-b3-kernel-bin 6.1.41: Binary kernel package for the B3 miniserver, from gentoo-sources
 sys-power/bubba-buttond 1.4-r5: Excito B3 power control
-virtual/bubba 1.15 1.16 9999: Virtual for Bubba Version
+virtual/bubba 1.16 9999: Virtual for Bubba Version
 virtual/jdk 1.8.0-r99: Virtual for Java Development Kit (JDK)
 www-apps/codeigniter-bin 2.2.2: CodeIgniter PHP framework for full-featured web applications
