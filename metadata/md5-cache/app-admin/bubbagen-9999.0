@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=!sys-apps/b3-init-scripts >=virtual/udev-215 >=sys-apps/ethtool-3.12.1 app-admin/bubba-admin app-admin/bubba-manual arm? ( sys-power/bubba-buttond )
 RESTRICT=mirror
 SLOT=0/9999
-_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
+_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
 _md5_=d87c161e470bfb8b5b99d35f997e5df2
