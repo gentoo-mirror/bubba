@@ -6,7 +6,7 @@ acct-user/assp 0: A user for Anti Spam SMTP Proxy server
 acct-user/daapd 0: A user for iTunes Digital Audio Access Protocol server
 acct-user/logitechmediaserver 0: A user for Logitech Media Server
 acct-user/wsdd 0: User for net-misc/wsdd
-app-admin/bubba-admin 2.6.2-r2: Excito B3 administration tools and GUI
+app-admin/bubba-admin 2.6.2-r3: Excito B3 administration tools and GUI
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
 app-admin/bubbagen 1.16.1 1.16.6 9999.0 9999.5: The Bubba main package
 app-misc/domoticz 2023.2 2024.3 9999: Home automation system
@@ -34,4 +34,4 @@ sys-kernel/bubba-b3-kernel-bin 6.1.41: Binary kernel package for the B3 miniserv
 sys-power/bubba-buttond 1.4-r5: Excito B3 power control
 virtual/bubba 1.16 9999: Virtual for Bubba Version
 virtual/jdk 1.8.0-r99: Virtual for Java Development Kit (JDK)
-www-apps/codeigniter-bin 2.2.2: CodeIgniter PHP framework for full-featured web applications
+www-apps/codeigniter-bin 2.2.2 2.2.6: CodeIgniter PHP framework for full-featured web applications
