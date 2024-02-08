@@ -5,12 +5,11 @@ DESCRIPTION=The Bubba main package
 EAPI=7
 HOMEPAGE=https://github.com/gordonb3/bubbagen
 INHERIT=git-r3
-IUSE=systemd bindist
+IUSE=bindist systemd
 LICENSE=GPL-3+
 PROPERTIES=live
-RDEPEND=!sys-apps/b3-init-scripts >=virtual/udev-215 >=sys-apps/ethtool-3.12.1 app-admin/bubba-admin[systemd] app-admin/bubba-manual arm? ( sys-power/bubba-buttond[systemd] ) sys-apps/systemd
-REQUIRED_USE=systemd
+RDEPEND=!sys-apps/b3-init-scripts >=virtual/udev-215 >=sys-apps/ethtool-3.12.1 app-admin/bubba-admin app-admin/bubba-manual arm? ( sys-power/bubba-buttond )
 RESTRICT=mirror
-SLOT=0/9999.5
+SLOT=0/9999
 _eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
-_md5_=e9ef441346258e4cdc0945d8429e4078
+_md5_=fa8d0eacc8fec8ec07cbd5b17e4a3cef
