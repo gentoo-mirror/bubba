@@ -9,8 +9,8 @@ acct-user/wsdd 0: User for net-misc/wsdd
 app-admin/bubba-admin 2.6.2-r3: Excito B3 administration tools and GUI
 app-admin/bubba-manual 2.0.0.1 2.3-r3: Excito B3 manual
 app-admin/bubbagen 1.17.0 9999: The Bubba main package
-app-misc/domoticz 2023.2 2024.3 9999: Home automation system
-app-misc/oikomaticz 4.10.498 9999: Home automation system
+app-misc/domoticz 2023.2 2024.4 9999: Home automation system
+app-misc/oikomaticz 4.10.499 9999: Home automation system
 app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
 dev-java/openjdk-bin 8.0.252: Debian precompile Java SE Development Kit
 dev-libs/openzwave 1.6.1044-r1 9999: free software library that interfaces with selected Z-Wave PC controllers
