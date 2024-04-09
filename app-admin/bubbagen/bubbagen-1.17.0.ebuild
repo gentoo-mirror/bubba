@@ -95,14 +95,14 @@ src_prepare() {
 }
 
 src_compile() {
-	[[ -d ${WORKDIR}/oldconfig ]] || return
-
-	# build list of portage config files that need to be removed
-	cd ${WORKDIR}/oldconfig
-	find etc/portage -type f | while read FILE; do
-		[[ -e ${S}/${FILE} ]] || REMOVELIST="${REMOVELIST} /${FILE}"
-	done
-	cd - > /dev/null
+	if [ -d ${WORKDIR}/oldconfig ]; then
+		# build list of portage config files that need to be removed
+		cd ${WORKDIR}/oldconfig
+		find etc/portage -type f | while read FILE; do
+			[[ -e ${S}/${FILE} ]] || REMOVELIST="${REMOVELIST} /${FILE}"
+		done
+		cd - > /dev/null
+	fi
 
 	elog "Create bubba-default-config archive"
 	tar -czf bubba-default-config.tgz etc
