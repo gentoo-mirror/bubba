@@ -35,6 +35,7 @@ REMOVELIST=""
 IS_BINDIST=""
 KERNEL_MAJOR=""
 KERNEL_MINOR=""
+PROFILE=0
 
 pkg_setup() {
 	[[ -e ${ROOT}/var/lib/bubba/bubba-default-config.tgz ]] || return
