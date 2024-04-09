@@ -67,7 +67,7 @@ src_prepare() {
 	find ${S} -name ~nofiles~ -exec rm {} \;
 
 	if use systemd; then
-		cp -al ${S}/systemd/* ${S}/
+		cp -a ${S}/systemd/* ${S}/
 		cd ${S}/etc/local.d
 		ls -1 | while read FILE; do
 			grep -q -m1 rc-service ${FILE} && rm ${FILE}
