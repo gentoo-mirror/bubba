@@ -12,4 +12,4 @@ RDEPEND=!sys-apps/b3-init-scripts >=virtual/udev-215 >=sys-apps/ethtool-3.12.1 a
 RESTRICT=mirror
 SLOT=0/9999
 _eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
-_md5_=fa8d0eacc8fec8ec07cbd5b17e4a3cef
+_md5_=df944de8b2f96cb8424a40caf8cda96f
