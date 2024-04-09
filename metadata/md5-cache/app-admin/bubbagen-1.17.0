@@ -10,4 +10,4 @@ RDEPEND=!sys-apps/b3-init-scripts >=virtual/udev-215 >=sys-apps/ethtool-3.12.1 a
 RESTRICT=mirror
 SLOT=0/1.17
 SRC_URI=https://github.com/gordonb3/bubbagen/archive/v1.17.tar.gz -> bubbagen-1.17.0.tgz
-_md5_=370ad2b8ddce4a974750f9baaa7d2b88
+_md5_=92bd6f8e925ba9e1275ede1d55a8c379
