@@ -14,7 +14,7 @@ app-misc/oikomaticz 4.10.499 9999: Home automation system
 app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
 dev-java/openjdk-bin 8.0.400: Debian precompile Java SE Development Kit
 dev-libs/openzwave 1.6.1044-r1 9999: free software library that interfaces with selected Z-Wave PC controllers
-dev-perl/Audio-Scan 1.80.0: Fast C metadata and tag reader for all common audio file formats
+dev-perl/Audio-Scan 1.80.0 1.100.0: Fast C metadata and tag reader for all common audio file formats
 dev-perl/Font-FreeType 0.160.0: read font files and render glyphs from Perl using FreeType2
 dev-perl/Locale-Hebrew 1.50.0: bidirectional Hebrew support for Perl
 dev-perl/MP3-Cut-Gapless 0.30.0: Port of pcutmp3 to Perl with improvements
@@ -24,7 +24,7 @@ mail-filter/assp 1.10.1.16065: Anti-Spam SMTP Proxy written in Perl
 media-gfx/singapore 0.10.1_pre221101: Singapore Image Gallery
 media-libs/slim-faad 2.7.0_pre200908: Logitech patched AAC audio decoding library
 media-sound/forked-daapd 26.4: A DAAP (iTunes) media server
-media-sound/logitechmediaserver 8.2.1_pre20220904 8.3.0 8.3.1 8.5.0: Logitech Media Server (streaming audio server)
+media-sound/logitechmediaserver 8.2.1_pre20220904 8.3.0 8.3.1 8.5.0 8.5.1: Logitech Media Server (streaming audio server)
 net-misc/forked-easyfind-client 0.6: Easyfind client
 net-misc/wsdd 0.7.1: A Web Service Discovery host daemon.
 net-p2p/filetransferdaemon 0.55-r7: Excito File Transfer Daemon
