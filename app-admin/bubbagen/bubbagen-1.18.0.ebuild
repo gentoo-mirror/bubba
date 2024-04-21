@@ -36,6 +36,8 @@ REMOVELIST=""
 IS_BINDIST=""
 KERNEL_MAJOR=""
 KERNEL_MINOR=""
+PROFILE=0
+
 
 pkg_setup() {
 	[[ -e ${ROOT}/var/lib/bubba/bubba-default-config.tgz ]] || return
@@ -58,6 +60,9 @@ pkg_setup() {
 	# get kernel version
 	KERNEL_MAJOR=$(uname -r | cut -d. -f1)
 	KERNEL_MINOR=$(uname -r | cut -d. -f2)
+
+	# get profile version
+	PROFILE=$(readlink /etc/portage/make.profile | sed -e "s/[^0-9]//g" -e "s/^\(..\).*/\1/")
 }
 
 src_unpack() {
@@ -102,6 +107,11 @@ src_compile() {
 			[[ -e ${S}/${FILE} ]] || REMOVELIST="${REMOVELIST} /${FILE}"
 		done
 		cd - > /dev/null
+	fi
+
+	if [ ${PROFILE} -ge 23 ]; then
+		rm ${S}/etc/portage/package.use.force/merged-usr
+		rmdir ${S}/etc/portage/package.use.force 2>/dev/null
 	fi
 
 	elog "Create bubba-default-config archive"
