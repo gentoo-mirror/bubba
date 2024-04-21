@@ -202,4 +202,11 @@ pkg_postinst() {
 		sed -e "/^server_uuid/d" -i /var/lib/logitechmediaserver/preferences/server.prefs
 		sed -e "/^securitySecret/d" -i /var/lib/logitechmediaserver/preferences/server.prefs
 	fi
+
+	# remove obsolete merged-usr entries in make.conf
+	if [ ${PROFILE} -ge 23 ]; then
+		sed -e "s/\-split\-usr//" -e "s/^UNINSTALL_IGNORE/#UNINSTALL_IGNORE/" -i /etc/portage/make.conf
+		[[ -e /etc/portage/package.use.force/merged-usr ]]  && rm -v /etc/portage/package.use.force/merged-usr
+		[[ -d /etc/portage/package.use.force ]] && rmdir -v /etc/portage/package.use.force
+	fi
 }
