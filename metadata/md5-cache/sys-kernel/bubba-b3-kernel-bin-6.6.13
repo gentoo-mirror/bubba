@@ -9,4 +9,4 @@ RESTRICT=mirror strip test
 SLOT=6.6.13
 SRC_URI=https://github.com/gordonb3/bubba-b3-kernel/releases/download/6.6.13/bubba-b3-kernel-bin-6.6.13.tar.xz -> bubba-b3-kernel-bin-6.6.13.tar.xz
 _eclasses_=mount-boot	3945d351ee3192381911f938f4ee527a
-_md5_=dfa21907229182d8494b3f2c07d18ab8
+_md5_=06e9557007c1abe91557fe7fcc603501
