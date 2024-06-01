@@ -24,7 +24,7 @@ mail-filter/assp 1.10.1.16065: Anti-Spam SMTP Proxy written in Perl
 media-gfx/singapore 0.10.1_pre221101: Singapore Image Gallery
 media-libs/slim-faad 2.7.0_pre200908: Logitech patched AAC audio decoding library
 media-sound/forked-daapd 26.4: A DAAP (iTunes) media server
-media-sound/logitechmediaserver 8.2.1_pre20220904 8.5.1 8.5.1-r1: Logitech Media Server (streaming audio server)
+media-sound/logitechmediaserver 8.2.1_pre20220904 8.5.1 8.5.1-r1 8.5.2: Logitech Media Server (streaming audio server)
 net-misc/forked-easyfind-client 0.6: Easyfind client
 net-misc/wsdd 0.7.1: A Web Service Discovery host daemon.
 net-p2p/filetransferdaemon 0.55-r7: Excito File Transfer Daemon
