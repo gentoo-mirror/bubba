@@ -12,6 +12,7 @@ app-admin/bubbagen 1.17.0 1.18.0 1.18.0-r1 9999: The Bubba main package
 app-misc/domoticz 2023.2 2024.4 9999: Home automation system
 app-misc/oikomaticz 4.10.503 9999: Home automation system
 app-misc/telldus-core 2.1.2: Library to control a Telldus TellStick
+dev-java/openjdk-bin 8.0.252: Debian precompile Java SE Development Kit
 dev-libs/openzwave 1.6.1044-r1 9999: free software library that interfaces with selected Z-Wave PC controllers
 dev-perl/Audio-Scan 1.80.0 1.100.0: Fast C metadata and tag reader for all common audio file formats
 dev-perl/Font-FreeType 0.160.0: read font files and render glyphs from Perl using FreeType2
