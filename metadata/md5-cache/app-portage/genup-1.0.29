@@ -9,4 +9,4 @@ RDEPEND=emtee? ( >=app-portage/emtee-1.0.5 ) >=sys-libs/ncurses-5.9-r2 >=app-por
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/gordonb3/genup/archive/1.0.29.tar.gz -> genup-1.0.29.tar.gz
-_md5_=24255593419569f75064ee1713bc8771
+_md5_=b7127c49c4f9b43f1cabfe8c668e502b
