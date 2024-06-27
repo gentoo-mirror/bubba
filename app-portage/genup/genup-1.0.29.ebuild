@@ -40,15 +40,16 @@ src_prepare() {
 			ewarn "(otherwise, genup will fail)"
 			elog "buildkernel USE flag not selected - patching script accordingly."
 		else
-			sed -i -e 's@USE_BUILDKERNEL=false@USE_BUILDKERNEL=true@g' "${S}/${PN}" || \
+			sed -e 's@USE_BUILDKERNEL=false@USE_BUILDKERNEL=true@g' -i "${S}/${PN}" || \
 			die "Failed to patch script to reflect omitted buildkernel USE flag."
 		fi
 	fi
 	if use emtee; then
 		elog "emtee USE flag selected - patching script accordingly."
-		sed -i -e 's@USE_EMTEE=false@USE_EMTEE=true@g' "${S}/${PN}" || \
+		sed -e 's@USE_EMTEE=false@USE_EMTEE=true@g' -i "${S}/${PN}" || \
 			die "Failed to patch script to reflect emtee USE flag."
 	fi
+	sed -e "/^VERSION=/cVERSION=\"${PVR}\"" -i "${S}/${PN}"
 	eapply_user
 }
 src_install() {
