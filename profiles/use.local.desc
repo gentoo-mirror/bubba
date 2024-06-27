@@ -11,6 +11,7 @@ app-misc/oikomaticz:internal-lua - Integrate preferred version of Lua
 app-misc/oikomaticz:openzwave - Add support for OpenZWave
 app-misc/oikomaticz:spi - Add support for Serial Peripheral Interface
 app-misc/oikomaticz:telldus - Add support for Telldus stick
+app-portage/genup:buildkernel - Enable support for buildkernel (include buildkernel dependency).
 dev-libs/openzwave:htmldoc - Install HTML documentation files
 media-libs/slim-faad:digitalradio - Digital Radio Mondiale (warning: disables other decoders)
 media-sound/forked-daapd:itunes - Enable support for iTunes library XML
